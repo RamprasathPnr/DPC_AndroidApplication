@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_steps"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.75"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_Bank_Details"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#D1d1d1" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.39"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_Bank_Name"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/txt_class"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border">
+
+                        <com.omneagate.dpc.Utility.NoDefaultSpinner
+                            android:id="@+id/spinner_bank"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@color/transparent"
+                            android:prompt="@string/prompt_select" />
+
+                        <RelativeLayout
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/layout_border">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_down_arrow" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/txt_Account_Number"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <EditText
+                        android:id="@+id/edit_text_account_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:inputType="number"
+                        android:imeOptions="actionNext"
+                        android:nextFocusDown="@+id/edit_text_ifsc_code"
+                        android:maxLength="18"
+                        android:paddingLeft="5dp"
+                        android:singleLine="true"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_BranchName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <EditText
+                        android:id="@+id/edit_text_branch_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:imeOptions="actionNext"
+                        android:nextFocusDown="@id/edit_text_account_number"
+                        android:background="@drawable/edittext_border"
+                        android:maxLength="45"
+                        android:inputType="textNoSuggestions"
+                        android:paddingLeft="5dp"
+                        android:singleLine="true"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/txt_IFSC_Code"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <EditText
+                        android:id="@+id/edit_text_ifsc_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:maxLength="11"
+                        android:paddingLeft="5dp"
+                        android:imeOptions="actionDone"
+                        android:singleLine="true"
+                        android:inputType="textCapCharacters|textNoSuggestions"
+                        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom|right"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_cancel"
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/button_background_blue"
+                            android:text="@string/txt_cancel"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/farmer_reg" />
+
+                        <Button
+                            android:id="@+id/btn_next"
+                            android:layout_width="200dp"
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/button_background_green"
+                            android:text="@string/btn_Next"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/farmer_reg" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <include
+            android:id="@+id/bottom_layout"
+            layout="@layout/footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+</LinearLayout>

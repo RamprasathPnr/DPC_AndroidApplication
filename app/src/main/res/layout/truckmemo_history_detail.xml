@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:id="@+id/toplayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_new"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/truck_memo_number"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title"/>
+
+                    <TextView
+                        android:id="@+id/tv_truck_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text=""
+                        android:textSize="@dimen/title"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_DPC_Code"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title"/>
+
+                    <TextView
+                        android:id="@+id/tv_dpc_code_his"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text=""
+                        android:textSize="@dimen/title"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/date_time_"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title"/>
+
+                    <TextView
+                        android:id="@+id/tv_datetime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text=""
+                        android:textSize="@dimen/title"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_DPC_name"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title"/>
+
+                    <TextView
+                        android:id="@+id/tv_dpc_name_his"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text=""
+                        android:textSize="@dimen/title"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/toplayer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_lay"
+            android:layout_below="@+id/toplayer"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_new"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/paddyCategory"
+                    android:textColor="@color/truck_memo_largetext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:id="@+id/txt_paddyCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/truck_memo_smalltext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/NumberOfBags"
+                    android:textColor="@color/truck_memo_largetext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:id="@+id/txt_Number_Bags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/truck_memo_smalltext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/LorryNumber"
+                    android:textColor="@color/truck_memo_largetext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:id="@+id/txt_Lorry_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/truck_memo_smalltext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/ConditionOfGunny"
+                    android:textColor="@color/truck_memo_largetext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:id="@+id/txt_ConditionofGunny"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text=""
+                    android:textColor="@color/truck_memo_smalltext"
+                    android:textSize="@dimen/title"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/Grade"
+                    android:textColor="@color/truck_memo_largetext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:id="@+id/txt_grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/truck_memo_smalltext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/Netquantity"
+                    android:textColor="@color/truck_memo_largetext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:id="@+id/txt_net_quan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/truck_memo_smalltext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/TransporterName"
+                    android:textColor="@color/truck_memo_largetext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:id="@id/txt_Transporter_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/truck_memo_smalltext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/GunnyCapacity"
+                    android:textColor="@color/truck_memo_largetext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:id="@+id/txt_gunnyCapacity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/truck_memo_smalltext"
+                    android:textSize="@dimen/title"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/MoistureContent"
+                    android:textColor="@color/truck_memo_largetext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:id="@+id/txt_moisture_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/truck_memo_smalltext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="@string/TransportType"
+                    android:textColor="@color/truck_memo_largetext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:id="@+id/txt_transport_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/truck_memo_smalltext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CapCodeName"
+                    android:textColor="@color/truck_memo_largetext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:id="@+id/txt_cap_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/truck_memo_smalltext"
+                    android:textSize="@dimen/title"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/specification"
+                    android:textSize="@dimen/title" />
+
+                <TextView
+                    android:id="@+id/specification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/truck_memo_smalltext"
+                    android:textSize="@dimen/title" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_above="@+id/bottom_layout"
+            android:layout_marginBottom="5dp"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/btn_print"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background_green"
+                android:text="@string/print"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title"/>
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_hash"
+                android:text="@string/txt_close"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/title"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/no_records"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="No Records Found"
+            android:gravity="center"
+            android:visibility="gone"
+            android:background="@color/white"
+            android:textSize="@dimen/title"/>
+        <include
+            android:id="@+id/bottom_layout"
+            layout="@layout/footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

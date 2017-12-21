@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.2"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/border_dashboard"
+
+                        android:clickable="true">
+
+
+                        <RelativeLayout
+                            android:id="@+id/relay_procurement_history"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:onClick="retrieve"
+                            android:clickable="true">
+
+                            <LinearLayout
+                                android:id="@+id/lay_procurement_history"
+                                android:layout_width="80dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/Retrive_db"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/icon_retrive_db" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center|center_horizontal"
+                                android:layout_marginLeft="10dp"
+                                android:layout_toRightOf="@+id/lay_procurement_history"
+                                android:gravity="center"
+                                android:text="@string/retrieve_db"
+                                android:textSize="@dimen/admin_txt_size" />
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/border_dashboard">
+
+                            <RelativeLayout
+                                android:id="@+id/relay_truck_memo_history"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?android:attr/selectableItemBackground"
+                                android:clickable="true">
+
+
+                                <LinearLayout
+                                    android:id="@+id/lay_truck_memo_history"
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/truck_memo_history_color"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:src="@drawable/ic_truck_memo_history" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|center_horizontal"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="2dp"
+                                    android:layout_toRightOf="@+id/lay_truck_memo_history"
+                                    android:gravity="left|center"
+                                    android:text="@string/txt_Truck_Memo_History"
+                                    android:textSize="19dp" />
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/border_dashboard">
+
+                            <RelativeLayout
+                                android:id="@+id/relay_former_list"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?android:attr/selectableItemBackground"
+                                android:clickable="true">
+
+
+                                <LinearLayout
+                                    android:id="@+id/lay_former_list"
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/lay_former_list_color"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:src="@drawable/ic_farmer_list" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|center_horizontal"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_toRightOf="@+id/lay_former_list"
+                                    android:gravity="center"
+                                    android:text="@string/txt_Former_List"
+                                    android:textSize="19dp" />
+                            </RelativeLayout>
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:visibility="gone"
+                            android:background="@drawable/border_dashboard">
+
+                            <RelativeLayout
+                                android:id="@+id/relay_reports"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:background="?android:attr/selectableItemBackground"
+                                android:clickable="true">
+
+                                <LinearLayout
+                                    android:id="@+id/lay_reports"
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/lay_reports_color"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:src="@drawable/ic_reports" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|center_horizontal"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_toRightOf="@+id/lay_reports"
+                                    android:gravity="center"
+                                    android:text="@string/txt_Reports"
+                                    android:textSize="19dp" />
+
+                            </RelativeLayout>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="4">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/border_dashboard">
+
+                            <RelativeLayout
+                                android:id="@+id/relay_procurement"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?android:attr/selectableItemBackground"
+                              android:onClick="restore"
+                                android:clickable="true">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|center_horizontal"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_toRightOf="@+id/lay_procurement"
+                                    android:gravity="center"
+                                    android:text="@string/restore_db"
+                                    android:textSize="@dimen/admin_txt_size" />
+
+                                <LinearLayout
+                                    android:id="@+id/lay_procurement"
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/pink_color"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:src="@drawable/icon_restore_db" />
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/border_dashboard">
+
+                            <RelativeLayout
+                                android:id="@+id/relay_truck_memo"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?android:attr/selectableItemBackground"
+                                android:clickable="true">
+
+                                <LinearLayout
+                                    android:id="@+id/lay_truck_memo"
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/lay_truck_memo_color"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:src="@drawable/ic_truck_memo" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_centerInParent="true"
+                                    android:layout_gravity="center|center_horizontal"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_toRightOf="@+id/lay_truck_memo"
+                                    android:gravity="center"
+                                    android:text="@string/txt_Truck_Memo"
+                                    android:textSize="19dp" />
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/border_dashboard">
+
+                            <RelativeLayout
+                                android:id="@+id/relay_daily_wages"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?android:attr/selectableItemBackground"
+                                android:clickable="true">
+
+
+                                <LinearLayout
+                                    android:id="@+id/lay_daily_wages"
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/lay_daily_wages_color"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="60dp"
+                                        android:layout_height="50dp"
+                                        android:src="@drawable/ic_daily_wagers" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_centerInParent="true"
+                                    android:layout_gravity="center|center_horizontal"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_toRightOf="@+id/lay_daily_wages"
+                                    android:gravity="center"
+                                    android:text="@string/txt_Daily_Wagers"
+                                    android:textSize="19dp" />
+
+                            </RelativeLayout>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/border_dashboard">
+
+                            <RelativeLayout
+                                android:id="@+id/relay_others"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="?android:attr/selectableItemBackground"
+                                android:clickable="true">
+
+
+                                <LinearLayout
+                                    android:id="@+id/lay_others"
+                                    android:layout_width="80dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/lay_others_color"
+                                    android:gravity="center">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:src="@drawable/ic_others" />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_centerInParent="true"
+                                    android:layout_gravity="center|center_horizontal"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_toRightOf="@+id/lay_others"
+                                    android:gravity="center"
+                                    android:text="@string/txt_Others"
+                                    android:textSize="19dp" />
+                            </RelativeLayout>
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/footer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8" />
+    </LinearLayout>
+
+
+</LinearLayout>

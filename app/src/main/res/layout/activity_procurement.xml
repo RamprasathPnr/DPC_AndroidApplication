@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.omneagate.dpc.Activity.ProcurementActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:layout_above="@+id/bottom_layout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_aadhaar_card_proc"
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="0dp"
+                    android:background="@drawable/button_procurement_aadhaar"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/ic_aadhaar_card" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/btn_Scan_Aadhaar_Card"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+                </LinearLayout>
+
+
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/txt_Ration_card_Number"
+                    android:textColor="@color/black"
+                    android:textSize="23dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="75dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="-5dp"
+                        android:background="@drawable/shape_ration_card_icon"
+                        android:clickable="true"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_ration_card" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:layout_width="65dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/border_ration_card_number"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:gravity="center"
+                        android:paddingLeft="8dp"
+                        android:textSize="23sp" />
+
+                    <EditText
+                        android:layout_width="65dp"
+                        android:layout_height="70dp"
+                        android:maxLength="1"
+                        android:gravity="center"
+                        android:paddingLeft="8dp"
+                        android:background="@drawable/border_ration_card_number"
+                        android:textSize="23sp" />
+
+                    <EditText
+                        android:layout_width="120dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/border_ration_card_number"
+                        android:inputType="number"
+                        android:maxLength="7"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:textSize="23sp" />
+
+                    <LinearLayout
+                        android:id="@+id/btn_search"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="-10dp"
+                        android:background="@drawable/button_background_search"
+                        android:clickable="true"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_ration_card_search" />
+
+                    </LinearLayout>
+                </LinearLayout>
+-->
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="20dp">
+
+
+
+                <LinearLayout
+                    android:id="@+id/layout_btn_smart_card"
+                    android:layout_width="400dp"
+                    android:layout_height="85dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/layout_border"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+                    </LinearLayout>
+
+
+
+                <!--<LinearLayout
+                    android:id="@+id/layout_btn_smart_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_procurement_smart_card"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/ic_smart_card" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/btn_Scan_Smart_Card"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+
+                </LinearLayout>-->
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <include
+            android:id="@+id/bottom_layout"
+            layout="@layout/footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

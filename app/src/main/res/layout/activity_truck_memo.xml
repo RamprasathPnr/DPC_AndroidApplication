@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/toplayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_paddy_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paddyCategory"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title" />
+
+                <RelativeLayout
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/txt_paddyCategory"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.omneagate.dpc.Utility.NoDefaultSpinner
+                        android:id="@+id/paddy_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/transparent"
+                        android:prompt="@string/prompt_select" />
+
+                    <RelativeLayout
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/layout_border">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_down_arrow" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txt_Number_of_bags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/NumberOfBags"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title" />
+
+                <EditText
+                    android:id="@+id/edit_text_Number_of_bags"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:nextFocusDown="@+id/edit_text_Net_quantity"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/title" />
+
+                <TextView
+                    android:id="@+id/txt_Lorry_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/LorryNumber"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title" />
+
+                <EditText
+                    android:id="@+id/edit_text_Lorry_Number"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border"
+                    android:imeOptions="actionNext"
+                    android:inputType="textNoSuggestions"
+                    android:maxLength="12"
+                    android:nextFocusDown="@+id/edit_text_Transporter_Name"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/title" />
+
+                <TextView
+                    android:id="@+id/txt_condition_of_gunny"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/ConditionOfGunny"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title" />
+
+                <RelativeLayout
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/txt_condition_gunny"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.omneagate.dpc.Utility.NoDefaultSpinner
+                        android:id="@+id/spinner_condition_of_gunny"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/transparent"
+                        android:prompt="@string/prompt_select" />
+
+                    <RelativeLayout
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/layout_border">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_down_arrow" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_Grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Grade"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title" />
+
+                <RelativeLayout
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/txt_Grade"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.omneagate.dpc.Utility.NoDefaultSpinner
+                        android:id="@+id/spinner_grade"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/transparent"
+                        android:prompt="@string/prompt_select" />
+
+                    <RelativeLayout
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/layout_border">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_down_arrow" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txt_Net_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/Netquantity"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title" />
+
+                <EditText
+                    android:id="@+id/edit_text_Net_quantity"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+                    android:maxLength="100"
+                    android:nextFocusDown="@+id/edit_text_Lorry_Number"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/title" />
+
+                <TextView
+                    android:id="@+id/txt_Transporter_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/TransporterName"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title" />
+
+                <EditText
+                    android:id="@+id/edit_text_Transporter_Name"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border"
+                    android:imeOptions="actionNext"
+                    android:inputType="textNoSuggestions"
+                    android:maxLength="45"
+                    android:nextFocusDown="@+id/edit_text_Gunny_capacity"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/title" />
+
+                <TextView
+                    android:id="@+id/txt_Gunny_capacity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/GunnyCapacity"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title" />
+
+                <EditText
+                    android:id="@+id/edit_text_Gunny_capacity"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border"
+                    android:digits="1234567890/"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:nextFocusDown="@+id/edit_text_patta_number"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/title" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txt_Moisture_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/MoistureContent"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title" />
+
+                <EditText
+                    android:id="@+id/edit_text_Moisture_content"
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+                    android:maxLength="100"
+                    android:nextFocusDown="@+id/edit_text_Number_of_bags"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/title">
+
+                    <requestFocus />
+                </EditText>
+
+
+                <TextView
+                    android:id="@+id/txt_Transport_Type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/TransportType"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title" />
+
+                <RelativeLayout
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/txt_Transport_Type"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.omneagate.dpc.Utility.NoDefaultSpinner
+                        android:id="@+id/spinner_Transport_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/transparent"
+                        android:prompt="@string/prompt_select" />
+
+                    <RelativeLayout
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/layout_border">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_down_arrow" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/txt_Gowdown_Code_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/CapCodeName"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title" />
+
+                <RelativeLayout
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/txt_Transport_Type"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.omneagate.dpc.Utility.NoDefaultSpinner
+                        android:id="@+id/spinner_Gowdown_Code_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/transparent"
+                        android:prompt="@string/prompt_select" />
+
+                    <RelativeLayout
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/layout_border">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_down_arrow" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/specification"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/title" />
+
+                <RelativeLayout
+                    android:layout_width="320dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/txt_taluk"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edittext_border">
+
+                    <com.omneagate.dpc.Utility.NoDefaultSpinner
+                        android:id="@+id/spinner_specification"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@color/transparent"
+                        android:prompt="@string/prompt_select" />
+
+                    <RelativeLayout
+                        android:layout_width="55dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/layout_border">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_down_arrow" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_layout"
+            android:layout_below="@+id/toplayout"
+            android:layout_weight="3"
+            android:gravity="right|bottom">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/button_background_blue"
+                android:text="@string/txt_cancel"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_background_green"
+                android:text="@string/btn_Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/bottom_layout"
+            layout="@layout/footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>

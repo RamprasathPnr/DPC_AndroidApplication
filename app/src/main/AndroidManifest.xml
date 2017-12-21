@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.omneagate.dpc">
+
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".Service.Application"
+        android:allowBackup="true"
+        android:clearTaskOnLaunch="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:launchMode="singleTask"
+        android:stateNotNeeded="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:stateNotNeeded="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!--<category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />-->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Activity.DashBoardActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:keepScreenOn="true"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.FarmerContactActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Activity.FarmerBankDetailsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Activity.FarmerRegistrationActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Activity.AutoUpgrationActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Activity.LandDetailsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Activity.AddLandDetailsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Activity.ViewLandDetailsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Activity.SyncPageActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Activity.FarmerListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+
+        <service android:name=".Service.UpdateDataService" />
+        <service android:name=".Service.FirstSyncExceptionService" />
+        <service android:name=".Service.OffLineFarmerSyncService" />
+        <service android:name=".Service.OffLineProcurementSync" />
+        <service android:name=".Service.OfflineTruckMemoManager" />
+
+        <activity
+            android:name=".Activity.AdminActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Activity.ViewFarmerDetailsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="stateHidden" />
+
+        <receiver
+            android:name=".Receiver.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".Activity.ServerStatusActivity" />
+        <activity
+            android:name=".Activity.ProcurementActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.ProcurementDetailsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.ProcurementCalculationActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.ProcurementEditActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.AssociatedFarmersListActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.OthersActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.AssociatedFarmerViewDetails"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.ApprovedLandDetailsActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.TruckMemoActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.TruckMemoDetailActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.DpcProfileActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Activity.TruckMemoHistoryActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.TruckSearchPaddyCategoryActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.TruckMemoUnSyncedActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.TruckMemoSearchDate"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.TruckMemoSearchCap"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.ProcurementHistory"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.TruckSearchNumber"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.ProcurementSearchByNumberActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.TruckMemoDuplicatePrintActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.ProcurementSearchByPaddy"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.ProcurementDuplicatePrintActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.ProcurementSearchByDate"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.ProcurementSearchByFarmerCode"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.ProcurementUnSyncedActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyEditText"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+
+        <receiver android:name="com.omneagate.dpc.Receiver.AlarmReceiver" />
+        <service android:name=".Service.StatisticsServices" />
+        <service android:name=".Service.HeartBeatService" />
+    </application>
+
+</manifest>

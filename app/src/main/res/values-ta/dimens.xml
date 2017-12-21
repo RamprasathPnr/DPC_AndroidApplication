@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title">16sp</dimen>
+    <dimen name="pro">15sp</dimen>
+    <dimen name="title_hint">14sp</dimen>
+    <dimen name="farmerreg_title">16sp</dimen>
+    <dimen name="login_title">19sp</dimen>
+    <dimen name="unsyn">13sp</dimen>
+    <dimen name="farmer_reg">17sp</dimen>
+    <dimen name="dialog_head">20sp</dimen>
+    <dimen name="dialog_content">18sp</dimen>
+    <dimen name="loader">12sp</dimen>
+    <dimen name="list">16sp</dimen>
+    <dimen name="admin_txt_size">20sp</dimen>
+    <dimen name="alert_txt_size">17sp</dimen>
+
+    <dimen name="farmer_reg1">16sp</dimen>
+</resources>

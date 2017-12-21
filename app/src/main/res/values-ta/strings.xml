@@ -1,0 +1,628 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Dpc</string>
+    <string name="login">உள்நுழைவு</string>
+    <string name="loginPageCopyright">பதிப்புரிமை தகவல் \u00A9 2015 TNCSC | உதவிமைய எண் - 1967 / 1800-425-5901</string>
+    <string name="loading">செயலில் ...</string>
+    <string name="txt_ok">சரி</string>
+    <string name="txt_cancel">ரத்து</string>
+    <string name="txt_clear">அழிக்க</string>
+    <string name="txt_Back">பின் செல்</string>
+    <string name="txt_Procurement_History">கொள்முதல் வரலாறு விவரங்கள் </string>
+    <string name="txt_Truck_Memo_History">வண்டி குறிபாணை வரலாறு விவரங்கள் </string>
+    <string name="txt_Former_List">விவசாயி பட்டியல்</string>
+    <string name="txt_Reports">அறிக்கைகள்</string>
+    <string name="txt_Procurement">கொள்முதல்</string>
+    <string name="txt_Truck_Memo">வண்டி குறிபாணை </string>
+    <string name="txt_Daily_Wagers">உறுதி சீட்டு</string>
+    <string name="txt_Others">இதர விவரங்கள் </string>
+    <string name="txt_Online">நிகழ்நிலை </string>
+    <string name="txt_Offline">அகல்நிலை  </string>
+    <string name="txt_Ration_card_Number">ரேஷன் அட்டை எண்</string>
+    <string name="txt_OR">அல்லது</string>
+    <string name="txt_Name">விவசாயி பெயர்</string>
+    <string name="txt_Father">தந்தை/ கணவர் பெயர்</string>
+    <string name="txt_Date_of_Birth">பிறந்த தேதி</string>
+    <string name="txt_Address">முகவரி</string>
+    <string name="txt_View_Address">முகவரி பார்க்க </string>
+    <string name="txt_Select">தேர்வு செய் </string>
+    <string name="txt_List_of_Beneficiary">பயனாளியின் பட்டியல்</string>
+    <string name="txt_Village">கிராமம்</string>
+    <string name="txt_Taluk">தாலுகா</string>
+    <string name="txt_District">மாவட்டம் </string>
+    <string name="txt_MobileNumber">தொலைபேசி எண்</string>
+    <string name="txt_Society_Name">சமூகம் பெயர்</string>
+    <string name="txt_Farmer_Class">விவசாயி வகுப்பு</string>
+    <string name="txt_Loan_Account_Number">கடன் கணக்கு எண்</string>
+    <string name="txt_Bank_Name">வங்கி பெயர்</string>
+    <string name="txt_Account_Number">கணக்கு எண்</string>
+    <string name="txt_Credit_Card">கடன் அட்டை எண்</string>
+    <string name="txt_BranchName">கிளை பெயர்</string>
+    <string name="txt_IFSC_Code">இந்திய நிதியியல் முறைமை குறியீடு</string>
+    <string name="txt_Bank_Details">வங்கி விவரங்கள்</string>
+    <string name="txt_Basic_Details">அடிப்படை விவரங்கள்</string>
+    <string name="txt_Land_Details">மனை  விபரங்கள்</string>
+    <string name="txt_Add_Land_Details">நில விவரங்கள் சேர்க்க</string>
+    <string name="txt_Crop_Name">பயிர் பெயர்</string>
+    <string name="txt_Land_Type">நில வகை</string>
+    <string name="txt_Main_Land_Lord_Name">முதன்மை நிலக்கிழார் பெயர்</string>
+    <string name="txt_Loan_Book_Number">கடன் புத்தக எண்</string>
+    <string name="txt_Survey_Number">புல எண்</string>
+    <string name="txt_Area">பரப்பளவு (ஏக்கர்) </string>
+    <string name="txt_Area_of_seed_sowed_for_Procurement">விதை பகுதி கொள்முதல் விதைத்தான் (கிலோ )</string>
+    <string name="txt_Accumulated_kgs">குவிக்கப்பட்ட</string>
+    <string name="txt_Non_Accumulated_kgs">குவிக்கப்பட்ட இல்லை </string>
+    <string name="txt_Total_kgs">மொத்தம்  </string>
+    <string name="txt_Accumulated_Quintal">குவிக்கப்பட்ட</string>
+    <string name="txt_Non_Accumulated_Quintal">குவிக்கப்பட்ட இல்லை </string>
+    <string name="txt_Total_Quintal">மொத்தம்  </string>
+    <string name="txt_Expected_Quantity_for_Procurement">கொள்முதல் எதிர்பார்க்கப்படுகிறது அளவு  (குவிண்டால் )</string>
+    <string name="txt_View_Land_Details">மனை விபரங்கள் பார்வையிட</string>
+    <string name="txt_enter_bob">பிறந்த தேதி உள்ளிடவும்</string>
+    <string name="tx_guardian">விவசாயி தந்தை / கணவர் பெயர்</string>
+    <string name="txt_guardian">தேர்வு செய்க </string>
+    <string name="txview_gua">பாதுகாவலர் பெயர்</string>
+    <string name="txt_enter_taluk">தாலுகா </string>
+    <string name="txt_enter_village">கிராமம்</string>
+    <string name="txt_crop_name">பயிர் பெயர்</string>
+    <string name="txt_Main_Land">நிலக்கிழார் பெயர்</string>
+    <string name="txt_Loan_Book_No">கடன் புத்தக எண்</string>
+    <string name="txt_surver_number">நில அளவை எண்</string>
+    <string name="txt_view">பார்க்க </string>
+    <string name="txt_code">பதிவு எண்</string>
+    <string name="Mobile_No">கைபேசி எண்</string>
+    <string name="Area">பரப்பளவு  (ha)</string>
+    <string name="txt_Aadhaar">ஆதார்</string>
+    <string name="txt_qty">கொள். எதிர்பார் அளவு(கு ) </string>
+    <string name="txt_Contact_Details">தொடர்பு விபரங்கள்</string>
+    <string name="txt_ad1">முகவரி வரி 1</string>
+    <string name="txt_ad2">முகவரி வரி 2</string>
+    <string name="txt_fmn">விவசாயி பெயர்</string>
+    <string name="txt_adrnum">ஆதார் எண்</string>
+    <string name="txt_DPC">DPC</string>
+    <string name="Add_Farmer">விவசாயி விவரம் சேர்க்க </string>
+    <string name="txt_Paddy_Category">நெல் வகை</string>
+    <string name="txt_Moisture_Content">ஈரப்பதம் (%)</string>
+    <string name="txt_Grade">தரம்</string>
+    <string name="txt_Net_weight">நிகர எடை (q)</string>
+    <string name="txt_okk">சரி</string>
+    <string name="txt_search">தேடல்</string>
+    <string name="txt_pincode">அஞ்சல் குறியீடு</string>
+    <string name="aadhr">தயவு செய்து 12 ஐக்கிய ஆதார் எண் உள்ளிடவும்</string>
+    <string name="txt_status">நிலைமை</string>
+    <string name="view_Land_Details">மனை விபரங்கள் பார்வையிட</string>
+    <string name="serviceTimeout" tools:ignore="MissingTranslation">300000</string>
+    <string name="txt_patta_Number">பட்டா எண்</string>
+    <string name="txt_expected_date">கொள்முதல் முடியும் நாள்</string>
+    <string name="txt_farmer_code">விவசாயி குறியீடு</string>
+    <string name="txt_Associated_List">அங்கீகரிக்கப்பட்ட விவசாயிகள் </string>
+    <string name="txt_num_land">நிலங்களின்  எண்ணிக்கை </string>
+    <string name="txt_farmer_nm">விவசாயி பெயர்</string>
+    <string name="txt_Farmer"> விவசாயி தந்தை / கணவர் பெயர்</string>
+    <string name="txt_Aadhaar_card_number">ஆதார் அட்டை எண்</string>
+    <!--Tool Bar Titles-->
+    <string name="tool_login_title_en">TAMILNADU CIVIL SUPPLIES CORPORATION</string>
+    <string name="tool_login_title_ta">தமிழ்நாடு நுகர்பொருள் வாணிபக் கழகம்</string>
+    <string name="title_Farmer_Procurement">கொள்முதல்</string>
+    <string name="title_Farmer_list">விவசாயி பட்டியல்</string>
+    <string name="tool_DIRECT_PROCUREMENT_CENTER_en">DIRECT PROCUREMENT CENTER</string>
+    <string name="tool_DIRECT_PROCUREMENT_CENTER_ta">நேரடி கொள்முதல் மையம்</string>
+
+    <string name="title_Farmer_Procurement_details">கொள்முதல் விவரங்கள்</string>
+    <string name="title_others">மற்றவைகள் </string>
+    <!--/Tool Bar Titles-->
+
+    <!--Button-->
+    <string name="btn_login">உள்நுழைவு</string>
+    <string name="btn_Scan_Aadhaar_Card">ஸ்கேன் ஆதார் அட்டை</string>
+    <string name="btn_Scan_Smart_Card">ஸ்கேன் ஸ்மார்ட் கார்டு</string>
+    <string name="btn_Submit">பதிவு செய் </string>
+    <string name="btn_Search">தேடு </string>
+    <string name="btn_Next">அடுத்த</string>
+    <string name="btn_Cancel">ரத்து</string>
+    <string name="btn_Edit">திருத்தம் செய்</string>
+    <string name="btn_Confirm">உறுதி செய்</string>
+
+    <!--/Button-->
+
+    <!--Hints-->
+    <string name="hint_login_id">பயனர் பெயர் </string>
+    <string name="hint_Password">கடவுச்சொல் </string>
+    <string name="hint_dialog_url">முகவரி</string>
+    <!--/Hints-->
+
+
+    <!--Toast Messages-->
+    <string name="toast_Please_Enter_the_User_Name">தயவு செய்து பயனர் பெயர் சேர்க்கவும்</string>
+    <string name="toast_Please_Enter_the_Password">தயவு செய்து கடவுச்சொல்லை உள்ளிடவும்</string>
+    <string name="toast_userName_or_Password_is_incorrect">பயனாளர் பெயர் அல்லது கடவுச்சொல்லை தவறானது</string>
+    <string name="toast_Device_is_not_Registered_Please_Contact_to_Helpdesk">சாதனம் பதிவு செய்யப்படவில்லை ,உதவி என்னை தொடர்பு கொள்ளவும்</string>
+    <string name="toast_Device_is_not_associated">சாதன தொடர்புடைய இல்லை</string>
+    <string name="toast_server_unreachable">Server Unreachable</string>
+    <string name="toast_Device_inactive_contact_Help_Desk">சாதன செயலற்று தொடர்பு உதவி மையம் ஆகும்</string>
+    <string name="toast_Device_request_already_sent">சாதனத்தைப் பதிவுசெய்தல் கோரிக்கை ஏற்கனவே , வெளியேறும் உள்ளது உதவி மையம் தொடர்பு கொள்ளவும்</string>
+    <string name="toast_server_tk">தயவு செய்து தாலுகா உள்ளிடவும்</string>
+    <string name="toast_Please_enter_the_mobile_number">தயவு செய்து மொபைல் எண்ணை உள்ளிடவும்</string>
+    <string name="toast_fm_class">விவசாயி வர்க்கம் தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_gdn">தயவு செய்து காப்பாளர் பெயரை உள்ளிடவும்</string>
+    <string name="toast_Guardian">தயவு செய்து காப்பாளர் தேர்வு </string>
+    <string name="toast_Please_select_bank">வங்கி தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_Please_enter_the_branch">தயவு செய்து கிளை உள்ளிடவும்</string>
+    <string name="toast_Please_enter_the_account_number">தயவு செய்து கணக்கு எண்ணை உள்ளிடவும்</string>
+    <string name="toast_Please_enter_the_IFSC_number">தயவு செய்து இந்திய நிதியியல் முறைமை குறியீடு  எண்ணை உள்ளிடவும்</string>
+    <string name="toast_server_di">மாவட்ட தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_Please_select_village">தயவு செய்து கிராமம் தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_Please_Select_Crop_Name">பயிர் பெயர் தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_Please_Select_Land_Type">செய்க நிலங்கள் வகை தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_Please_Enter_Land_Lord_Name">தயவு செய்து நிலக்கிழார் பெயர் உள்ளிடவும்</string>
+    <string name="toast_Please_Enter_Loan_Book_Numbere">தயவு செய்து  கடன் புத்தக எண்ணை உள்ளிடவும்</string>
+    <string name="toast_Please_Enter_Survey_Number">தயவு செய்து புல எண் உள்ளிடவும்</string>
+    <string name="toast_Please_Enter_Area">தயவு செய்து  பரப்பளவை   உள்ளிடவும்</string>
+    <string name="toast_Please_Enter_Accumulated_in_Kgs">குவிக்கப்பட்ட உள்ளிடவும்(கிலோ கிராம்)</string>
+    <string name="toast_Please_Enter_Non_Accumulated_in_Kgs">குவிக்கப்படாததை  உள்ளிடவும(கிலோ கிராம்)்</string>
+    <string name="toast_Please_Enter_Accumulated_in_Quintal">குவிக்கப்பட்ட உள்ளிடவும்(குவிண்டாலுக்கு ்)</string>
+    <string name="toast_Please_Enter_Non_Accumulated_in_Quintal">குவிக்கப்படாததை  உள்ளிடவும(குவிண்டாலுக்கு )்</string>
+    <string name="toast_Please_enter_the_farmer_name">தயவு செய்து விவசாயி பெயரை உள்ளிடவும்</string>
+    <string name="toast_Please_Choose_the_Guardian_Type">தயவு செய்து கார்டியன் வகை தேர்வு</string>
+    <string name="toast_Please_Choose_the_Guardian_name">தயவு செய்து கார்டியன் பெயரை உள்ளிடவும்</string>
+    <string name="toast_Please_enter_the_correct_aadhaar_number">சரியான ஆதார் எண் உள்ளிடவும்</string>
+    <string name="toast_Please_Choose_community">விவசாயி சமூகம் தேர்வு செய்க</string>
+    <string name="toast_Please_address">தயவு செய்து முகவரியை 1 உள்ளிடவும்</string>
+    <string name="toast_Please_pin">தயவு செய்து அஞ்சல் குறியீடு  எண்  உள்ளிடவும் </string>
+    <string name="toast_pin_six">அஞ்சல் குறியீடு எப்போதும் 6 தொடங்குகிறது</string>
+    <string name="toast_Please_user"> பயனர் நம்பிக்கைச்சான்றுகள் இல்லை</string>
+    <string name="toast_Sync_Completed">ஒத்திசைவு நிறைவு</string>
+    <string name="toast_Please_enter_the_aadhaar_number">தயவு செய்து ஆதார் எண்ணை உள்ளிடவும்</string>
+    <string name="toast_Please_dis">மாவட்ட தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_Please_taluk">தாலுகா தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_Please_village">கிராமத்தை  தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_lord">முதன்மை நிலக்கிழார் பெயர்  குறைந்தபட்சம்  2 எழுத்துக்கள்   இருக்க வேண்டும்</string>
+    <string name="toast_loan_book">கடன் புத்தகம் எண்  குறைந்தபட்சம்  8 எழுத்துக்கள்  இருக்க வேண்டும்</string>
+    <string name="toast_survey">சர்வே எண் குறைந்தபட்சம1 எழுத்து இருக்க வேண்டும்</string>
+    <string name="toast_bank">கிளை பெயர்  குறைந்தபட்சம் 2 எழுத்துக்கள் இருக்க வேண்டும்</string>
+    <string name="toast_account">கணக்கு எண்  குறைந்தபட்சம்  8 எழுத்துக்கள் இருக்க வேண்டும்</string>
+    <string name="toast_ifsc">IFSC எண் 11 இருக்க வேண்டும்</string>
+    <string name="toast_mbl">தயவு செய்து 10 ஐக்கிய கைபேசி  எண்ணை உள்ளிடவும் </string>
+    <string name="toast_mbl_num"> கைபேசி எண் 9 அல்லது 8 அல்லது 7 தொடங்க  வேண்டும்</string>
+    <string name="toast_ad1">முகவரி  வரி 1  குறைந்தபட்சம் 2 எழுத்துக்கள் இருக்க வேண்டும்</string>
+    <string name="toast_pin_cd">தயவு செய்து 6 ஐக்கிய அஞ்சல் குறியீடு எண்ணை உள்ளிடவும்</string>
+    <string name="toast_mbl_already">கைபேசி எண் ஏற்கனவே இருக்கின்றது</string>
+    <string name="toast_fr_name">விவசாயி பெயர்  குறைந்தபட்சம் 2 எழுத்துக்கள் இருக்க வேண்டும்</string>
+    <string name="toast_hus_nm">விவசாயி தந்தை / கணவர் பெயர்  குறைந்தபட்ச 2 எழுத்துக்கள் இருக்க வேண்டும்</string>
+    <string name="toast_aadhaar">12 ஐக்கிய ஆதார் எண்ணை உள்ளிடவும்</string>
+    <string name="toast_aadhaar_already">ஆதார் எண் ஏற்கனவே இருக்கின்றது </string>
+    <string name="toast_land">தயவு செய்து  விவசாயி நிலம் விவரங்கள் சேர்க்கவும்</string>
+    <string name="toast_register_already">விவசாயி பதிவு எண் ஏற்கனவே இருக்கின்றது </string>
+    <string name="toast_device_not_associated">சாதன தொடர்புடைய இல்லை</string>
+    <string name="toast_connection_error">இணைப்பு பிழை. தயவு செய்து மீண்டும் முயற்சிக்கவும்</string>
+    <string name="toast_network_error">பிணையம் கிடைக்கவில்லை மீண்டும் முயற்சிக்கவும்</string>
+    <string name="toast_device_not_register">சாதன பதிவு செய்யப்படவில்லை , உதவி மையத்தைத் தொடர்பு  கொள்ளவும்</string>
+    <string name="toast_admin_credentials">தவறான கோரிக்கை நிர்வாகம் சான்றுகளை உள்நுழைய தயவு செய்து</string>
+    <string name="toast_reg_req_already_exits">சாதனத்தைப் பதிவுசெய்தல் கோரிக்கை ஏற்கனவே  உள்ளது ,உதவி மையத்தைத் தொடர்பு கொள்ளவும்</string>
+    <string name="toast_error_upgrade">மேம்படுத்தல் பிழை . உதவி தொடர்பு மையத்தைத் தொடர்பு கொள்ளவும்</string>
+    <string name="toast_Account_error">கணக்கு எண் ஏற்கனவே உள்ளன</string>
+    <string name="toast_device_not_reg">சாதன பதிவு செய்யப்படவில்லை</string>
+    <string name="toast_device_register">சாதன பதிவு செய்யப்பட்டுள்ளது, உதவி மையத்தைத் தொடர்பு  கொள்ளவும்</string>
+    <string name="toast_User_is_not_associated">பயனர் கொடுக்கப்பட்ட சாதனதுடன்  பதிவு செய்யப்படவில்லை</string>
+    <string name="title_View_Farmer_details"> விவசாயி விபரங்கள்  </string>
+    <string name="toast_loan_book_number_min">கடன் புத்தகம் எண்  குறைந்தபட்சம்  2  எழுத்துக்கள் இருக்க வேண்டும்</string>
+    <string name="toast_mob">தயவு செய்து 10 ஐக்கிய கைபேசி  எண்ணை உள்ளிடவும் </string>
+    <string name="toast_No_records">பதிவுகள்  இல்லை </string>
+    <string name="toast_invalid_aadhaar_num">தவறான ஆதார் எண் </string>
+    <string name="toast_Please_patta">தயவு செய்து பட்டா எண் உள்ளிடவும்</string>
+    <string name="toast_one_option">தயவு செய்து தேடல் விருப்பத்தை உள்ளிடவும் </string>
+
+
+    <string name="toast_invalid_ration"> தவறான குடும்ப அட்டை  எண்</string>
+    <string name="toast_invalid_ration_digit">குடும்ப அட்டை  எண் 10 எழுத்துக்கள் இருக்க வேண்டும்</string>
+    <string name="toast_moisture_value"> பைகள் கொள்ளளவு கண்டிப்பாக 50,75,100,125 இருக்க வேண்டும் </string>
+    <string name="toast_moisture_content">ஈரப்பதம் கண்டிப்பாக 10.0 இருந்து 20.0 குள் இருக்க வேண்டும்</string>
+    <!--/Toast Messages-->
+
+
+    <!--Sneak BarMessage-->
+    <!--/Sneak BarMessage-->
+
+    <!--Dialog-->
+    <string name="dialog_change_url">முகவரி மாற்றம் </string>
+    <string name="dialog_device_details">சாதன விவரங்கள்</string>
+    <string name="dialog_Device_Number">சாதன எண்</string>
+    <string name="dialog_apk_version">Apk பதிப்பு</string>
+    <!--/Dialog-->
+
+
+    <!--TITLES-->
+    <string name="title_dashboard">முகப்பு சாளரம் </string>
+    <string name="title_Farmer_Registration">விவசாயி பதிவு</string>
+    <!--/TITLES-->
+
+
+    <!--Prompt-->
+    <string name="prompt_select">தேர்வு செய்க </string>
+    <string name="prompt_Select_society">சமூகத்தை தேர்வு செய்க </string>
+    <string name="prompt_Select_farmer_class"> சமூகம் தேர்வு செய்க </string>
+    <string name="prompt_Select_Bank">வங்கி தேர்வு செய்க </string>
+    <string name="prompt_Select_Taluk">தாலுகா தேர்வு செய்க</string>
+    <string name="prompt_Select_Paddy_Category">நெல் வகை தேர்வு செய்க</string>
+    <string name="prompt_Select_land_type">நிலங்கள் வகை தேர்வு செய்க</string>
+    <string name="prompt_Select_village">கிராமம் தேர்வு செய்க</string>
+    <string name="prompt_Select_Grade">தரம் தேர்வு செய்க</string>
+    <string name="txt_Number_of_Bags">Number of Bags</string>
+    <string name="gr">விவசாயி தந்தையின் / கணவர் பெயர் தேர்வு செய்யவும்</string>
+    <string name="grr">விவசாயி தந்தையின் / கணவர் பெயர் தேர்வு செய்யவும்</string>
+    <string name="Total_Farmers">மொத்த விவசாயிகள்</string>
+
+    <string name="prompt_Select_Transport_Type">போக்குவரத்து வகை தேர்வு செய்க </string>
+    <string name="prompt_Select_Condition_of_Gunny">பைகள் நிலை தேர்வு செய்க </string>
+    <string name="prompt_Select_Gowdown_NameCode"> கிடங்கு குறியீடு/பெயர் தேர்வு செய்க </string>
+    <!--/prompt-->
+
+
+    <string name="successful_submission">வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது</string>
+    <string name="ok">சரி</string>
+    <string name="confirmation_details">உங்கள் விவரங்கள் ஒப்புதலுக்காக சமர்பிக்கப்பட்டது </string>
+    <string name="Reference_number">தங்களது குறிப்பு எண் </string>
+    <string name="cancel">ரத்து செய்</string>
+    <string name="logoutString">தாங்கள் வெளியேற விரும்புகிறீர்களா ?</string>
+    <string name="logout">வெளியேறு</string>
+
+    <!--Qr code-->
+    <string name="app_picker_name">Applications</string>
+    <string name="bookmark_picker_name">Bookmarks</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_email">Send email</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>F
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_clear_one_history_text">Clear</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_empty">Empty</string>
+    <string name="history_empty_detail">No barcode scans have been recorded</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">History</string>
+    <string name="menu_encode_mecard">Use MECARD</string>
+    <string name="menu_encode_vcard">Use vCard</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_invalid_value">Invalid value</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_results">Results</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_sure">Are you sure?</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_auto_focus_title">Use auto focus</string>
+    <string name="preferences_auto_open_web_title">Open web pages automatically</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="preferences_custom_product_search_summary" formatted="false">Substitutions: %s = contents, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_industrial_title">1D Industrial</string>
+    <string name="preferences_decode_1D_product_title">1D Product</string>
+    <string name="preferences_decode_Aztec_title">Aztec</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Device Bug Workarounds</string>
+    <string name="preferences_disable_barcode_scene_mode_title">No barcode scene mode</string>
+    <string name="preferences_disable_continuous_focus_summary">Use only standard focus mode</string>
+    <string name="preferences_disable_continuous_focus_title">No continuous focus</string>
+    <string name="preferences_disable_exposure_title">No exposure</string>
+    <string name="preferences_disable_metering_title">No metering</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="preferences_front_light_on">On</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_history_summary">Store your scans in History</string>
+    <string name="preferences_history_title">Add to History</string>
+    <string name="preferences_invert_scan_title">Invert scan</string>
+    <string name="preferences_invert_scan_summary">Scan for white barcodes on black background. Not available on some devices.</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_orientation_title">No automatic rotation</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_search_country">Search country</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="wifi_changing_network">Requesting connection to network\u2026</string>
+    <string name="internalError">உள்ளீடு பிழை</string>
+    <string name="internalError_Server">உள்ளக சர்வர் பிழை</string>
+
+
+    <string name="hashMethod">SHA-256</string>
+    <string name="hashIterations">1000</string>
+    <string name="saltSize">10</string>
+    <string name="poolSize">16</string>
+
+    <string name="txt_purchaserate">கொள்முதல் மதிப்பீடு/குவிண்டால் </string>
+    <string name="txt_bonusrate">போனஸ் விகிதம்/குவிண்டால்</string>
+    <string name="txt_totalrate">மொத்த விகிதம்/குவிண்டால்</string>
+    <string name="txt_subtotalrate">(கொள்முதல் + போனஸ்)</string>
+    <string name="txt_totalamt">மொத்த தொகை</string>
+    <string name="txt_subtotalamt">(மொத்த விகிதம் *நிகர எடை)</string>
+    <string name="txt_gradequintal">விகிதம் குறைப்பு /குவிண்டால்</string>
+    <string name="txt_moisturequintal">ஈரப்பதம் பிடித்தம் /குவிண்டால்</string>
+    <string name="txt_addquintal">கூடுதல் பிடித்தம்/குவிண்டால்</string>
+    <string name="txt_totalcutquintal">மொத்த பிடித்தம்/குவிண்டால்</string>
+    <string name="txt_subtotalcutquintal">(விகிதம்+ஈரப்பதம்+கூடுதல்)</string>
+    <string name="txt_totalamtquintal">மொத்த பிடித்தம் தொகை</string>
+    <string name="txt_subtotalamtquintal">(மொத்த பிடித்தம்*நிகர எடை)</string>
+    <string name="txt_netamount">நிகர தொகை</string>
+    <string name="txt_close">பின்செல்  </string>
+
+
+    <string name="txt_Ac_Number">கணக்கு எண்</string>
+    <string name="prompt_Select_district">மாவட்ட தேர்வு</string>
+    <string name="successful_procured">கொள்முதல்  வெற்றிகரமாக ஏற்கப்பட்டது </string>
+    <string name="successful_Receipt_proc">உங்கள் கொள்முதல் ரசீது எண் </string>
+    <string name="text_moisture">ஈரப்பதம் (%)</string>
+    <string name="text_lot_number">லாட்  எண்</string>
+    <string name="text_spillage_qty">சிதறிய அளவு  (கி )</string>
+    <string name="text_num_bag">பைகளின்  எண்ணிக்கை</string>
+    <string name="title_associate_farmer_detailview">இணைக்கப்பட்ட விவசாயி விவரங்கள்</string>
+    <string name="internetnotavailable">இணைய இணைப்பு இல்லை</string>
+    <string name="toast_expected_date">கொள்முதலுக்காக எதிர்பார்க்கப்படும் தேதியை தேர்ந்தெடுக்கவும் </string>
+    <string name="toast_aadhar_number_not_found">கொடுக்கப்பட்ட ஆதார் எண்ணிற்கு   விவசாயி விவரங்கள் காணப்படவில்லை </string>
+    <string name="toast_farmer_code_not_found">கொடுக்கப்பட்ட விவசாயி குறியீடுக்கு விவரங்கள் காணப்படவில்லை </string>
+    <string name="toast_paddy_category">நெல் வகையை தேர்வு செய்க</string>
+    <string name="enter_moisture">தயவு செய்து ஈரப்பததை  உள்ளிடவும்</string>
+    <string name="toast_select_grade">தரத்தை  தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_enter_lot_number">தயவு  செய்து பதிவு எண்ணை   உள்ளிடவும் </string>
+    <string name="toast_enter_number_bags">தயவு  செய்து  பைகளின்  எண்ணிக்கையை உள்ளிடவும் </string>
+    <string name="please_enter_valid_moisture">ஈரப்பதம்  10.0 முதல்  20.9 வரை மட்டும் இருக்க  வேண்டும் </string>
+    <string name="toast_enter_number">பைகளின்  எண்ணிக்கை குறைந்தபட்சம் 1 இருக்க வேண்டும் </string>
+
+    <string name="txt_DPC_Code"> டி. பி .சி குறியீடு</string>
+    <string name="txt_DPC_name"> டி. பி .சி பெயர்</string>
+    <string name="txt_net_weight">நிகர எடை (கு)</string>
+
+    <string-array name="custom_months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>Aug</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+
+    <string-array name="custom_weekdays">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+
+    <!--Truck Memo-->
+
+    <string name="paddyCategory"> நெல் வகை </string>
+    <string name="NumberOfBags"> பைகள் எண்ணிக்கை </string>
+    <string name="LorryNumber"> வாகன எண் </string>
+    <string name="ConditionOfGunny"> பைகள் நிலை </string>
+    <string name="Grade"> தரம்  </string>
+    <string name="Netquantity"> நிகர எடை (கு) </string>
+    <string name="TransporterName"> இடமாற்றுபவர் பெயர் </string>
+    <string name="GunnyCapacity"> பைகள் கொள்ளளவு (கி) </string>
+    <string name="MoistureContent"> ஈரப்பதம்(%) </string>
+    <string name="TransportType"> போக்குவரத்து வகை </string>
+    <!--<string name="GowdownCodeName"> கிடங்கு குறியீடு/பெயர்</string>-->
+
+    <string name="SelectpaddyCategory">தயவு செய்து நெல் வகையை தேர்ந்தெடுக்கவும்</string>
+    <string name="Select_paddyVariety">தயவு செய்து நெல் வகையை தேர்ந்தெடுக்கவும்</string>
+    <string name="SelectNumberOfBags"> தயவு செய்து பைகள் எண்ணிக்கை  உள்ளிடவும் </string>
+    <string name="SelectLorryNumber"> தயவு செய்து வாகன எண்  உள்ளிடவும் </string>
+    <string name="SelectConditionOfGunny"> தயவு செய்து பைகள் நிலை  தேர்ந்தெடுக்கவும் </string>
+    <string name="SelectGrade">  தயவு செய்து தரத்தை  தேர்ந்தெடுக்கவும்</string>
+    <string name="SelectNetquantity"> தயவு செய்து  நிகர எடை (கு) உள்ளிடவும் </string>
+    <string name="SelectTransporterName">தயவு செய்து  இடமாற்றுபவர் பெயர்  உள்ளிடவும் </string>
+    <string name="SelectGunnyCapacity"> தயவு செய்து பைகள் கொள்ளளவு (கி)  உள்ளிடவும்  </string>
+    <string name="SelectMoistureContent">  தயவு செய்து  ஈரப்பதம்  உள்ளிடவும் </string>
+    <string name="SelectTransportType"> தயவு செய்து தரத்தை  தேர்ந்தெடுக்கவும்</string>
+    <string name="SelectCapCodeName">தயவு செய்து கிடங்கு குறியீடு/பெயர்  தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_lorry_numer"> வாகன எண்ணின் எண்ணிக்கை குறைந்தபட்சம் 7 இருக்க வேண்டும் </string>
+    <string name="toast_transporter_name"> இடமாற்றுபவர் பெயர் எண்ணிக்கை குறைந்தபட்சம் 2 இருக்க வேண்டும் </string>
+    <string name="truckmemosuccess"> டிரக் குறிப்பு வெற்றிகரமாக உருவாக்கப்பட்டது</string>
+    <string name="truckmemono"> டிரக் குறிப்பு எண்</string>
+    <string name="farmer_hint">குறிப்பு:  கு  - கிலோ   ஹெக் - (ஏக்கர்)</string>
+    <string name="toast_net_weight">தயவு செய்து நிகர எடை உள்ளிடவும்</string>
+    <string name="toast_select_grade_cut">தயவு செய்து விகிதம் குறைப்பு உள்ளிடவும்</string>
+    <string name="toast_select_moisture_cut">தயவு செய்து ஈரப்பதம் பிடித்தம் உள்ளிடவும்</string>
+    <string name="toast_select_additional_cut">தயவு செய்து கூடுதல் பிடித்தம் உள்ளிடவும்</string>
+    <string name="restoration">  தரவுத்தள உள்ளீடு </string>
+    <string name="noFileSdcard">மெமரி கார்டில் பாக்அப கோப்பு இல்லை</string>
+    <string name="backupFolderNot"> பாக்அப் கோப்பு உருவாக்க இயலவில்லை</string>
+    <string name="toast_duplicate_receipt_number">கொள்முதல் ரசீது எண் ஏற்கனவே உள்ளன</string>
+    <string name="toast_grater_than_one">Net Weight Should not be 0</string>
+    <string name="TruckMemo">டிரக் குறிப்பு</string>
+    <string name="txt_edit"> Edit </string>
+
+    <string name="title_bluetooth_devices">Select a device to print</string>
+    <string name="name">NAME</string>
+    <string name="address">ADDRESS</string>
+    <string name="gradename">GRADE</string>
+    <string name="text_moistureonly">Moisture</string>
+    <string name="print_netwt">NET WT</string>
+    <string name="print_Number_of_Bags">NO OF BAGS</string>
+    <string name="print_pur_rate">Pur.Rate/Qtl</string>
+    <string name="print_Bon_rate">Bon.Rate/Qtl</string>
+    <string name="print_total">TOTAL (P+B)</string>
+    <string name="print_gradecut">GRADE CUT</string>
+    <string name="print_moisturecut">MOISTURE CUT</string>
+    <string name="print_netamt">NET AMT</string>
+    <string name="toast_grater_than_totalamount">மொத்த பிடித்தம் தொகை  கண்டிப்பாக  மொத்த தொகையை விட குறைவாக இருக்க வேண்டும்  </string>
+    <string name="dpc_type">டிபிசி வகை</string>
+    <string name="capacity_per_day">ஒரு நாளுக்கான கொள்முதல் திறன் (MT)</string>
+    <string name="dpc_category">டிபிசி பிரிவு</string>
+    <string name="weighing_machingcapacity">எடை எந்திரத்தின் கொள்திறன் (MT)</string>
+    <string name="title_Dpc_profile">டிபிசி விவரக்குறிப்பு </string>
+    <string name="waittoast">Please wait...</string>
+    <string name="print_totalcutamount">TOTAL CUT AMT</string>
+    <string name="Last_login">கடைசி  உள்நுழைவு </string>
+    <string name="txt_welcome">வணக்கம் </string>
+    <string name="CapCodeName">கிடங்கு குறியீடு /பெயர்</string>
+    <string name="title_truck_memo_history">வண்டி குறிப்பாணை தேட</string>
+    <string name="godowm">GODOWN</string>
+    <string name="print_lorry_number">LORRY NO</string>
+    <string name="print_no_bags">NO OF BAGS</string>
+    <string name="print_net_qty">NET QTY</string>
+    <string name="print_sort">SORT</string>
+    <string name="print_variety">VARIETY</string>
+    <string name="print_gunny_type">GUNNY TYPE</string>
+    <string name="print_g_sub_type">G.SUB TYPE</string>
+    <string name="print_moisture">MOISTURE</string>
+    <string name="print_specefication">SPECIFICATION</string>
+    <string name="print_tc">TC NAME</string>
+    <string name="spillage_less">சிதறிய அளவு  0.500  இருந்து  2.500 குள் இருக்க வேண்டும் </string>
+    <string name="toast_valid_account_number">சரியான கணக்கு எண்ணை உள்ளிடவும்</string>
+    <string name="toast_valid_ifsc_code">சரியான IFSC குறியீடை  உள்ளிடவும்</string>
+    <string name="toast_value_less">மதிப்புகள் 01 இருந்து 33 குள்  இருக்க வேண்டும்</string>
+    <string name="toast_error_sync">ERROR SYNC</string>
+    <string name="toast_enter_farmer_code">தயவு செய்து விவசாயி குறியீடு உள்ளிடவும்</string>
+    <string name="truck_memo_number">வண்டி குறிப்பாணை எண்</string>
+    <string name="sync_done">Sync Already Done</string>
+    <string name="print">அச்சிடு</string>
+    <string name="datetime">தேதி</string>
+    <string name="procurement_receipt_number">கொள்முதல் ரசீது எண்</string>
+    <string name="date">தேதி</string>
+    <string name="sim_number">சிம் எண்</string>
+    <string name="admin">Admin</string>
+    <string name="device_connected">சாதனம் இணைக்கப்பட்டது</string>
+    <string name="device_not_connected">சாதனம் இணைக்கப்படவில்லை </string>
+    <string name="new_bale">New Bale</string>
+    <string name="sound_serviceable">Sound Serviceable</string>
+    <string name="serviceable_patches">Serviceable with Patches</string>
+    <string name="own">Own</string>
+    <string name="Private">Private</string>
+    <string name="pair_device">அச்சுப்பொறியுடன் இணைப்பை ஏற்படுத்தவும் </string>
+    <string name="TruckMemo_details">வண்டி குறிபாணை விவரங்கள்</string>
+    <string name="truck_number">வண்டி குறிப்பாணை எண்</string>
+    <string name="un_synced">ஒருங்கிணைக்கப்படாத வண்டி குறிப்பாணை</string>
+    <string name="date_time_">தேதி / நேரம்</string>
+    <string name="synced_Procurement">ஒருங்கிணைக்கப்பட்ட கொள்முதல் </string>
+    <string name="un_synced_Procurement">ஒருங்கிணைக்கப்படாத கொள்முதல் </string>
+    <string name="CapCode">சிஏபி குறியீடு</string>
+    <string name="synced">ஒருங்கிணைக்கப்பட்ட வண்டி குறிப்பாணை</string>
+    <string name="title_truck_memo_unSync">ஒருங்கிணைக்கப்படாத வண்டி குறிப்பாணை</string>
+    <string name="no_records">எந்த பதிவுகளும் கண்டறியப்படவில்லை</string>
+    <string name="title_truck_procurement_details">கொள்முதல் விவரங்கள்</string>
+    <string name="txt_Paddy_Category_">கொள்முதல் ரசீது எண்</string>
+    <string name="procurement_no">ரசீது எண்</string>
+    <string name="quantity">அளவு (100 கிலோகிராம் எடைக்கு)</string>
+    <string name="moisture">ஈரப்பதம்( %)</string>
+    <string name="title_procurement_history">கொள்முதல் வரலாறு விவரங்கள் தேட</string>
+    <string name="title_procurements">கொள்முதல்</string>
+    <string name="sync_procurement">கொள்முதல் விவரங்களை ஒருங்கிணைக்க</string>
+    <string name="sync_truck_memo">வண்டி குறிபாணை விவரங்களை ஒருங்கிணைக்க</string>
+    <string name="toast_net_amount">Net Amount Should Not be Zero</string>
+    <string name="txt_mob_no">Mob.No</string>
+    <string name="bank">Bank</string>
+    <string name="acc">Acc.No</string>
+    <string name="specification">விவரக்குறிப்பு</string>
+    <string name="caution">எச்சரிக்கை</string>
+    <string name="timeDiff">சர்வர் , சாதனம் நேர வித்தியாசம்</string>
+    <string name="nextDay">காலை </string>
+    <string name="changeTime">நேரத்தை மாற்ற ஆமை அழுத்தவும்</string>
+    <string name="please_select_valid_specification">சரியான  விவரக்குறிப்பு தேர்ந்தெடுக்கவும்</string>
+    <string name="toast_select_specfication">தயவு செய்து விவரக்குறிப்பு தேர்ந்தெடுக்கவும்</string>
+    <string name="specification_">SPECIFICATION</string>
+    <string name="toast_invalid_rate">தேர்வுசெய்யப்பட்ட தரத்திற்கு கொடுக்கப்பட்ட தொகை தவறு </string>
+    <string name="txt_Ration_card">ரேஷன் அட்டை </string>
+    <string name="procurement_date">கொள்முதல் தேதி</string>
+    <string name="toast_user_inactive">பயனர் செயல்படுத்தப்படவில்லை </string>
+    <string name="toast_dpc_inactive">நேரடி கொள்முதல் மையம் முடக்கப்பட்டுள்ளது</string>
+    <string name="toast_app_type">பயனர் நேரடி கொள்முதல் மையத்துடன் இணைக்கப்படவில்லை</string>
+    <string name="no_records_date">தேர்ந்தெடுக்கப்பட்ட தேதிக்கான கொள்முதல் கிடைக்கவில்லை</string>
+    <string name="no_records_paddy">தேர்ந்தெடுக்கப்பட்ட நெல் வகைக்கான கொள்முதல் கிடைக்கவில்லை</string>
+    <string name="no_records_receipt">கொடுக்கப்பட்ட ரசீது எண்ணிற்கு கொள்முதல் கிடைக்கவில்லை</string>
+    <string name="no_records_code">கொடுக்கப்பட்ட விவசாயி குறியீட்டிற்கான கொள்முதல் கிடைக்கவில்லை</string>
+    <string name="toast_mobile_aadhar_error">கைபேசி எண்  , ஆதார் எண்  ஏற்கனவே இருக்கின்றது</string>
+    <string name="no_records_truck_paddy">தேர்ந்தெடுக்கப்பட்ட நெல் வகைக்கான வண்டி குறிபாணை  கிடைக்கவில்லை</string>
+    <string name="no_records_truck_number">கொடுக்கப்பட்ட ரசீது எண்ணிற்கு  வண்டி குறிபாணை  கிடைக்கவில்லை</string>
+    <string name="no_records_truck_date">தேர்ந்தெடுக்கப்பட்ட தேதிக்கான வண்டி குறிபாணை  கிடைக்கவில்லை</string>
+    <string name="no_records_truck_cap">தேர்ந்தெடுக்கப்பட்ட  கிடங்கு குறியீடு/பெயர்  வண்டி குறிபாணை  கிடைக்கவில்லை</string>
+    <string name="no_records_search">தயவு செய்து தேடல் விருப்பத்தை தேர்வு செய்யவும் </string>
+    <string name="retrieve_db">தரவுத்தள வெளியீடு  </string>
+    <string name="restore_db">தரவுத்தள உள்ளீடு</string>
+    <string name="date_time_proc">ரசீது தேதி மற்றும் நேரம்</string>
+    <string name="alert_farmer">தாங்கள் பின்செல் பொத்தானை அழுத்தினால் தங்களது விவரங்கள் நீக்கப்படும் ?</string>
+    <string name="alert"> எச்சரிக்கை</string>
+
+
+    <string name="retrieveDbString">தரவுத்தளமானது POS நினைவகத்தில் இருந்து SD கார்டுக்கு   மாற்றப்படும்</string>
+    <string name="restorationDbString">தரவுத்தளமானது  SD கார்டிலிருந்து  POS நினைவகத்தில் வைக்கப்படும்</string>
+
+</resources>

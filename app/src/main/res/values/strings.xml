@@ -1,0 +1,637 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">DPC</string>
+    <string name="login">LOGIN</string>
+    <string name="loginPageCopyright">Copyright \u00A9 2015 TNCSC | Help Desk - 1967 / 1800-425-5901</string>
+    <string name="loading">Loading...</string>
+    <string name="txt_ok">Ok</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_clear">Clear</string>
+    <string name="txt_Back">Back</string>
+    <string name="txt_Procurement_History">Procurement History</string>
+    <string name="txt_Truck_Memo_History">Truck Memo History</string>
+    <string name="txt_Former_List">Farmer List</string>
+    <string name="txt_Reports">Reports</string>
+    <string name="txt_Procurement">Procurement</string>
+    <string name="txt_Truck_Memo">Truck  Memo</string>
+    <string name="txt_Daily_Wagers">Vouchers</string>
+    <string name="txt_Others">Others</string>
+    <string name="txt_Online">Online</string>
+    <string name="txt_Offline">Offline</string>
+    <string name="txt_Ration_card_Number">Ration Card Number</string>
+    <string name="txt_OR">OR</string>
+    <string name="txt_Name">Farmer Name</string>
+    <string name="txt_Father">Father/Husband Name</string>
+    <string name="txt_Date_of_Birth">Date of Birth</string>
+    <string name="txt_Address">Address</string>
+    <string name="txt_View_Address">View Address</string>
+    <string name="txt_Select">Select</string>
+    <string name="txt_List_of_Beneficiary">List of Beneficiary</string>
+    <string name="txt_Village">Village</string>
+    <string name="txt_Taluk">Taluk</string>
+    <string name="txt_District">District</string>
+    <string name="txt_MobileNumber">Mobile Number</string>
+    <string name="txt_Society_Name">Society Name</string>
+    <string name="txt_Farmer_Class">Community</string>
+    <string name="txt_Loan_Account_Number">Loan Account Number</string>
+    <string name="txt_Bank_Name">Bank Name</string>
+    <string name="txt_Account_Number">Account Number</string>
+    <string name="txt_Ac_Number">Acc Number</string>
+    <string name="txt_Credit_Card">Credit Card Number</string>
+    <string name="txt_BranchName">Branch Name</string>
+    <string name="txt_IFSC_Code">IFSC Code</string>
+    <string name="txt_Bank_Details">Bank Details</string>
+    <string name="txt_Basic_Details">Basic Details</string>
+    <string name="txt_Land_Details">Land Details</string>
+    <string name="txt_Add_Land_Details">Add Land Details</string>
+    <string name="txt_Crop_Name">Crop Name</string>
+    <string name="txt_Land_Type">Land Type</string>
+    <string name="txt_Main_Land_Lord_Name">Main Land Lord Name</string>
+    <string name="txt_Loan_Book_Number">Loan Book Number</string>
+    <string name="txt_Survey_Number">Survey Number</string>
+    <string name="txt_Area">Area (Acre)</string>
+    <string name="txt_Area_of_seed_sowed_for_Procurement">Area of seed sowed for Procurement (Kgs)</string>
+    <string name="txt_Accumulated_kgs">Accumulated </string>
+    <string name="txt_Non_Accumulated_kgs">Non Accumulated </string>
+    <string name="txt_Total_kgs">Total </string>
+    <string name="txt_Accumulated_Quintal">Accumulated </string>
+    <string name="txt_Non_Accumulated_Quintal">Non Accumulated </string>
+    <string name="txt_Total_Quintal">Total </string>
+    <string name="txt_Expected_Quantity_for_Procurement">Expected Quantity for Procurement (Quintal)</string>
+    <string name="txt_View_Land_Details">View Land Details</string>
+    <string name="txt_Paddy_Category">VARIETY</string>
+    <string name="txt_Moisture_Content">Moisture Content(%)</string>
+    <string name="txt_Number_of_Bags">Number of Bags</string>
+    <string name="txt_Grade">Grade</string>
+    <string name="txt_Net_weight">Net Weight(q)</string>
+    <string name="txt_okk">Ok</string>
+    <string name="txview_gua">Guardian Name</string>
+    <string name="tx_guardian">Farmer\'s Father/ Husband Name</string>
+    <string name="txt_guardian">Select</string>
+    <string name="txt_enter_taluk">Enter the Taluk</string>
+    <string name="txt_enter_bob">Enter the date of birth</string>
+    <string name="txt_enter_village">Village</string>
+    <string name="txt_crop_name">crop Name</string>
+    <string name="txt_Main_Land">Main Land Lord Name</string>
+    <string name="txt_Loan_Book_No">Loan Book No</string>
+    <string name="txt_surver_number">Survey No</string>
+    <string name="txt_view">View</string>
+    <string name="txt_code">Reg.No</string>
+    <string name="Mobile_No">Mobile No</string>
+    <string name="Area">Area (ha)</string>
+    <string name="txt_Aadhaar">Aadhaar</string>
+    <string name="txt_qty"> Expt Qty for procurement (q)</string>
+
+    <string name="txt_num_land">No.Of Lands</string>
+    <string name="txt_search">search</string>
+    <string name="txt_Contact_Details">Contact Details</string>
+    <string name="txt_ad1">Address Line 1</string>
+    <string name="txt_ad2">Address Line 2</string>
+    <string name="txt_fmn">Farmer Name</string>
+    <string name="txt_adrnum">Aadhaar Number</string>
+    <string name="txt_pincode">Pincode</string>
+    <string name="txt_DPC">DPC</string>
+    <string name="Total_Farmers">Total Farmers</string>
+    <string name="txt_status">Get Status</string>
+    <string name="view_Land_Details">View Land Details</string>
+
+    <string name="serviceTimeout" tools:ignore="MissingTranslation">300000</string>
+
+    <string name="txt_patta_Number">Patta Number</string>
+
+    <string name="txt_expected_date">Expected Date of Procurement</string>
+
+    <string name="txt_farmer_code">Farmer Code</string>
+    <string name="txt_Associated_List">Associated Farmers</string>
+
+    <string name="txt_farmer_nm">Farmer Name</string>
+    <string name="txt_Farmer"> Farmer\'s Father/ Husband Name</string>
+    <string name="txt_Aadhaar_card_number">Aadhaar card number</string>
+
+
+    <!--Tool Bar Titles-->
+    <string name="tool_login_title_en">TAMILNADU CIVIL SUPPLIES CORPORATION</string>
+    <string name="tool_login_title_ta">தமிழ்நாடு நுகர்பொருள் வாணிபக் கழகம்</string>
+    <string name="tool_DIRECT_PROCUREMENT_CENTER_en">DIRECT PROCUREMENT CENTER</string>
+    <string name="tool_DIRECT_PROCUREMENT_CENTER_ta">நேரடி கொள்முதல் மையம்</string>
+    <!--/Tool Bar Titles-->
+
+    <!--Button-->
+    <string name="btn_login">Login</string>
+    <string name="btn_Scan_Aadhaar_Card">Scan Aadhaar Card</string>
+    <string name="btn_Scan_Smart_Card">Scan Smart Card</string>
+    <string name="btn_Search">Search</string>
+    <string name="btn_Next">Next</string>
+    <string name="btn_Submit">Submit</string>
+    <string name="btn_Cancel">Cancel</string>
+    <string name="btn_Edit">Edit</string>
+    <string name="btn_Confirm">Confirm</string>
+    <!--/Button-->
+
+    <!--Hints-->
+    <string name="hint_login_id">Login ID</string>
+    <string name="hint_Password">Password</string>
+    <string name="hint_dialog_url">URL</string>
+    <!-- <string name="hint_login_id">LOGIN</string>-->
+
+    <!--/Hints-->
+
+
+    <!--Toast Messages-->
+    <string name="toast_Please_Enter_the_User_Name">Please Enter the User Name</string>
+    <string name="toast_Please_Enter_the_Password">Please Enter the Password</string>
+    <string name="toast_userName_or_Password_is_incorrect">Username or Password is incorrect</string>
+    <string name="toast_Device_is_not_Registered_Please_Contact_to_Helpdesk">Device is not Registered,Please Contact to Helpdesk</string>
+    <string name="toast_Device_is_not_associated">Device is not associated</string>
+    <string name="toast_server_unreachable">Server Unreachable</string>
+    <string name="toast_Device_inactive_contact_Help_Desk">Device is inactive contact Help Desk</string>
+    <string name="toast_Device_request_already_sent">Device Registration Request is already exits,Please Contact Help desk</string>
+    <string name="toast_server_di">Please select the district</string>
+    <string name="toast_server_tk">Please enter the taluk</string>
+    <string name="toast_Please_enter_the_mobile_number">Please enter the mobile number</string>
+    <string name="toast_fm_class">Please select the community</string>
+    <string name="toast_gdn">Please enter the guardian name</string>
+    <string name="toast_Guardian">Please select the Guardian </string>
+    <string name="toast_Please_select_bank">Please select bank</string>
+    <string name="toast_Please_enter_the_branch">Please enter the branch</string>
+    <string name="toast_Please_enter_the_account_number">Please enter the account number</string>
+    <string name="toast_Please_enter_the_IFSC_number"> Please enter the IFSC number</string>
+    <string name="toast_Please_select_village">Please select Village</string>
+    <string name="toast_Please_Select_Crop_Name">Please Select Crop Name</string>
+    <string name="toast_Please_Select_Land_Type">Please Select Land Type</string>
+    <string name="toast_Please_Enter_Land_Lord_Name">Please Enter Land Lord Name</string>
+    <string name="toast_Please_Enter_Loan_Book_Numbere">Please Enter Loan Book Number</string>
+    <string name="toast_Please_Enter_Survey_Number">Please Enter Survey Number</string>
+    <string name="toast_Please_Enter_Area">Please Enter Area</string>
+    <string name="toast_Please_Enter_Accumulated_in_Kgs">Please Enter Accumulated in Kgs</string>
+    <string name="toast_Please_Enter_Non_Accumulated_in_Kgs">Please Enter Non Accumulated in Kgs</string>
+    <string name="toast_Please_Enter_Accumulated_in_Quintal">Please Enter Accumulated in Quintal</string>
+    <string name="toast_Please_Enter_Non_Accumulated_in_Quintal">Please Enter Non Accumulated in Quintal</string>
+    <string name="toast_Please_enter_the_farmer_name">Please enter farmer name</string>
+    <string name="toast_Please_Choose_the_Guardian_Type">Please choose the guardian Type</string>
+    <string name="toast_Please_Choose_the_Guardian_name">Please enter the guardian name</string>
+    <string name="toast_Please_enter_the_aadhaar_number">Please enter the Aadhaar number</string>
+    <string name="toast_Please_enter_the_correct_aadhaar_number">Please enter the correct Aadhaar number</string>
+    <string name="toast_Please_Choose_community">Please choose farmer community</string>
+    <string name="toast_Please_address">Please enter the address line 1</string>
+    <string name="toast_Please_pin">Please enter the pin code</string>
+    <string name="toast_pin_six">Pin code always starts with 6</string>
+    <string name="toast_Please_dis">Please select the district</string>
+    <string name="toast_Please_taluk">Please select the taluk</string>
+    <string name="toast_Please_village">Please select the village</string>
+    <string name="toast_Please_user">User doesn\'t have credentials</string>
+    <string name="toast_Sync_Completed">Sync Completed</string>
+    <string name="aadhr">Please enter the 12 digit aadhar number</string>
+    <string name="gr">please enter Farmer\'s Father/ Husband Name</string>
+    <string name="grr">please choose Farmer\'s Father/ Husband Name</string>
+    <string name="Add_Farmer">Add Farmer</string>
+    <string name="toast_lord">Main Land Lord Name should be minimum of 2</string>
+    <string name="toast_loan_book">Loan Book number should be minimum of 8</string>
+    <string name="toast_survey">SurveyNumber minimum of 1</string>
+    <string name="toast_bank">Branch Name should be minimum of 2</string>
+    <string name="toast_account">Account Number should be minimum of 8</string>
+    <string name="toast_ifsc">IFSC Number should be 11</string>
+    <string name="toast_mbl">Please enter the 10 digit mobile number</string>
+    <string name="toast_mbl_num"> Mobile number must be starts with 9 or 8 or 7</string>
+    <string name="toast_ad1">Address Line 1 should be minimum of 2</string>
+    <string name="toast_pin_cd">Please enter the 6 digit pincode number</string>
+    <string name="toast_mbl_already">Mobile Number is already exist</string>
+    <string name="toast_fr_name">Farmer Name should be minimum of 2</string>
+    <string name="toast_hus_nm">Farmer\'s Father/ Husband Name should be minimum of 2</string>
+    <string name="toast_aadhaar">Enter the  12 digit aadhaar number</string>
+    <string name="toast_aadhaar_already">Aadhaar Number is already exist</string>
+    <string name="toast_land">Please add land details to the farmer</string>
+    <string name="toast_register_already">Farmer Registration Number is already exist</string>
+    <string name="toast_device_not_associated">Device is not associated</string>
+    <string name="toast_connection_error"> Connection Error. Please try again</string>
+    <string name="toast_network_error">Network is not available Please try again</string>
+    <string name="toast_device_not_register">Device is not Registered,Please Contact to Helpdesk</string>
+    <string name="toast_admin_credentials">Invalid request  Please login with Admin credentials</string>
+    <string name="toast_reg_req_already_exits"> Device Registration Request is already exits,Please Contact Helpdesk</string>
+    <string name="toast_error_upgrade">Error in Upgrade.Contact Helpdesk</string>
+    <string name="toast_Account_error">Account Number already exist</string>
+    <string name="toast_device_not_reg">Device is not Registered</string>
+    <string name="toast_device_register">Device is Registered,Please Contact to Helpdesk</string>
+    <string name="toast_User_is_not_associated">User is not associated to the given device</string>
+    <string name="toast_loan_book_number_min">Loan Book number should be minimum of 2</string>
+    <string name="toast_mob">Mobile number length should be 10</string>
+    <string name="toast_No_records">No records found</string>
+    <string name="toast_invalid_aadhaar_num">Invalid Aadhaar Number</string>
+    <string name="toast_Please_patta">Please Enter Patta Number</string>
+    <string name="toast_one_option">Please enter any one of the search option</string>
+
+    <string name="toast_invalid_ration"> Invalid Ration Card Number</string>
+    <string name="toast_invalid_ration_digit"> Invalid Ration Length Should be in 10 Digit</string>
+
+
+    <!--/Toast Messages-->
+
+
+    <!--Dialog-->
+    <string name="dialog_change_url">Change URL</string>
+    <string name="dialog_device_details">Device Details</string>
+    <string name="dialog_Device_Number">Device Number</string>
+    <string name="dialog_apk_version">Apk Version</string>
+    <!--/Dialog-->
+
+    <!--TITLES-->
+    <string name="title_dashboard">eDPC - Dashboard</string>
+    <string name="title_Farmer_Registration">Farmer Registration</string>
+    <string name="title_Farmer_Procurement">Procurement</string>
+    <string name="title_Farmer_list">Farmer List</string>
+    <string name="title_View_Farmer_details">View Farmer Details</string>
+    <string name="title_Farmer_Procurement_details">Procurement Details</string>
+    <string name="title_others">Others</string>
+    <!--/TITLES-->
+
+    <!--Prompt-->
+    <string name="prompt_select">Select</string>
+    <string name="prompt_Select_society">Select Society</string>
+    <string name="prompt_Select_farmer_class">Select Farmer Community</string>
+    <string name="prompt_Select_Bank">Select Bank</string>
+    <string name="prompt_Select_Taluk">Select Taluk</string>
+    <string name="prompt_Select_Grade">Select Grade</string>
+    <string name="prompt_Select_district">Select District</string>
+    <string name="prompt_Select_Paddy_Category">Select Paddy</string>
+    <string name="prompt_Select_land_type">Select Land Type</string>
+    <string name="prompt_Select_village">Select village</string>
+    <string name="prompt_Select_Transport_Type">Select Transport Type</string>
+    <string name="prompt_Select_Condition_of_Gunny">Select Condition of Gunny</string>
+    <string name="prompt_Select_Gowdown_NameCode">Select Gowdown Code/Name</string>
+    <!--/prompt-->
+
+
+    <!--Qr code-->
+    <string name="app_picker_name">Applications</string>
+    <string name="bookmark_picker_name">Bookmarks</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_email">Send email</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>F
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_clear_one_history_text">Clear</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_empty">Empty</string>
+    <string name="history_empty_detail">No barcode scans have been recorded</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">History</string>
+    <string name="menu_encode_mecard">Use MECARD</string>
+    <string name="menu_encode_vcard">Use vCard</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_invalid_value">Invalid value</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_results">Results</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_sure">Are you sure?</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_auto_focus_title">Use auto focus</string>
+    <string name="preferences_auto_open_web_title">Open web pages automatically</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="preferences_custom_product_search_summary" formatted="false">Substitutions: %s = contents, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_industrial_title">1D Industrial</string>
+    <string name="preferences_decode_1D_product_title">1D Product</string>
+    <string name="preferences_decode_Aztec_title">Aztec</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Device Bug Workarounds</string>
+    <string name="preferences_disable_barcode_scene_mode_title">No barcode scene mode</string>
+    <string name="preferences_disable_continuous_focus_summary">Use only standard focus mode</string>
+    <string name="preferences_disable_continuous_focus_title">No continuous focus</string>
+    <string name="preferences_disable_exposure_title">No exposure</string>
+    <string name="preferences_disable_metering_title">No metering</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="preferences_front_light_on">On</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_history_summary">Store your scans in History</string>
+    <string name="preferences_history_title">Add to History</string>
+    <string name="preferences_invert_scan_title">Invert scan</string>
+    <string name="preferences_invert_scan_summary">Scan for white barcodes on black background. Not available on some devices.</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_orientation_title">No automatic rotation</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_search_country">Search country</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="wifi_changing_network">Requesting connection to network\u2026</string>
+    <string name="internalError">Internal Error</string>
+    <string name="internalError_Server">Internal Server Error</string>
+
+
+    <string name="hashMethod">SHA-256</string>
+    <string name="hashIterations">1000</string>
+    <string name="saltSize">10</string>
+    <string name="poolSize">16</string>
+
+    <string name="successful_submission">Successfully Submitted</string>
+    <string name="ok">Ok</string>
+    <string name="confirmation_details">Your details successfully submitted for approval</string>
+    <string name="Reference_number">and your Reference Number is</string>
+    <string name="cancel">Cancel</string>
+    <string name="logoutString">Do you want to logout?</string>
+    <string name="logout">Logout</string>
+
+
+    <string name="successful_procured">Successfully Procured</string>
+    <string name="successful_Receipt_proc">Your Procurement Receipt Number is </string>
+
+    <!--proc-->
+    <string name="text_moisture">Moisture Content (%)</string>
+    <string name="text_lot_number">LOT Number</string>
+    <string name="text_spillage_qty">Spillage Quantity (Kg)</string>
+    <string name="text_num_bag">Number of Bags</string>
+    <string name="txt_purchaserate">Purchase Rate/Quintal</string>
+    <string name="txt_bonusrate">Bonus Rate/Quintal</string>
+    <string name="txt_totalrate">Total Rate/Quintal</string>
+    <string name="txt_subtotalrate">(Purchase + Bonus)</string>
+    <string name="txt_totalamt">Total Amount</string>
+    <string name="txt_subtotalamt">(Total Rate*Net Weight)</string>
+    <string name="txt_gradequintal">Grade Cut/Quintal</string>
+    <string name="txt_moisturequintal">Moisture Cut/Quintal</string>
+    <string name="txt_addquintal">Additional Cut/Quintal</string>
+    <string name="txt_totalcutquintal">Total Cut/Quintal</string>
+    <string name="txt_subtotalcutquintal">(Grade+Moisture+Extra)</string>
+    <string name="txt_totalamtquintal">Total Cut Amount</string>
+    <string name="txt_subtotalamtquintal">(Total Cut*Net Weight)</string>
+    <string name="txt_netamount">Net Amount</string>
+    <string name="txt_close">Close</string>
+    <string name="title_associate_farmer_detailview">Associated Farmer Details</string>
+    <string name="internetnotavailable">No Internet Connection</string>
+    <string name="toast_expected_date">Please Select the Expected Procurement Date</string>
+    <string name="toast_aadhar_number_not_found">Farmer Details not found for given Aadhaar Number</string>
+    <string name="toast_farmer_code_not_found">Farmer Details not found for given Farmer Code</string>
+    <string name="toast_paddy_category">Please Select the Paddy category</string>
+    <string name="txt_DPC_Code">DPC Code</string>
+    <string name="txt_DPC_name">DPC Name</string>
+    <string name="txt_net_weight">Net Weight (q)</string>
+
+
+    <!--Date picker-->
+
+    <string-array name="custom_months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>Aug</item>
+        <item>Sept</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+
+    <string-array name="custom_weekdays">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+    <!--Truck Memo-->
+
+    <string name="paddyCategory">Paddy Variety</string>
+    <string name="NumberOfBags">Number of Bags </string>
+    <string name="LorryNumber">Lorry Number</string>
+    <string name="ConditionOfGunny"> Condition of Gunny</string>
+    <string name="Grade"> Grade </string>
+    <string name="Netquantity"> Net Quantity (q) </string>
+    <string name="TransporterName"> Transporter Name </string>
+    <string name="GunnyCapacity"> Gunny Capacity (Kg) </string>
+    <string name="MoistureContent"> Moisture Content(%) </string>
+    <string name="TransportType"> Transport Type </string>
+    <string name="CapCodeName"> Cap Code/Name</string>
+
+    <string name="SelectpaddyCategory"> Please Select Paddy Category</string>
+
+    <string name="Select_paddyVariety"> Please Select Paddy Variety</string>
+
+    <string name="SelectNumberOfBags"> Please Enter Number of Bags </string>
+    <string name="SelectLorryNumber"> Please Enter Lorry Number</string>
+    <string name="SelectConditionOfGunny"> Please Select Condition of Gunny</string>
+    <string name="SelectGrade"> Please Select Grade </string>
+    <string name="SelectNetquantity"> Please Enter Net Quantity (q) </string>
+    <string name="SelectTransporterName"> Please Enter Transporter Name </string>
+    <string name="SelectGunnyCapacity"> Please Enter Gunny Capacity (Kg) </string>
+    <string name="SelectMoistureContent"> Please Enter Moisture Content </string>
+    <string name="SelectTransportType"> Please Select Transport Type </string>
+    <string name="SelectCapCodeName"> Please Select Cap Code/Name</string>
+    <string name="toast_lorry_numer"> Lorry Number Must be grater than 7</string>
+    <string name="toast_transporter_name"> Transporter Name Must be grater than 2</string>
+    <string name="txt_edit"> Edit </string>
+    <string name="TruckMemo">Truck Memo</string>
+
+    <string name="truckmemosuccess"> Truck Memo Generated Successfully</string>
+    <string name="truckmemono">Truck Memo Number is</string>
+    <string name="enter_moisture">Please Enter the Moisture content</string>
+    <string name="toast_select_grade">Please Select the Grade</string>
+    <string name="toast_enter_lot_number">Please Enter the Lot Number</string>
+    <string name="toast_enter_number_bags">Please Enter the Number of Bags</string>
+    <string name="please_enter_valid_moisture">Moisture Content must be 10.0 to 20.9</string>
+    <string name="toast_enter_number">Number of Bags Must be grater than 1</string>
+    <string name="farmer_hint" />
+    <string name="toast_net_weight">Please Enter the Net Weight</string>
+    <string name="toast_select_grade_cut">Please Enter the Grade cut</string>
+    <string name="toast_select_moisture_cut">Please Enter the Moisture Cut</string>
+    <string name="toast_select_additional_cut">Please Enter the Additional Cut</string>
+    <string name="restoration">Restore DB</string>
+    <string name="noFileSdcard"> No file in sdcard back up</string>
+    <string name="backupFolderNot"> backup folder is not created</string>
+    <string name="toast_duplicate_receipt_number">Procurement Receipt Number already exist</string>
+    <string name="toast_grater_than_one">Net Weight Should not be 0</string>
+
+    <string name="title_bluetooth_devices">Select a device to print</string>
+    <string name="name">NAME</string>
+    <string name="address">ADDRESS</string>
+    <string name="gradename">GRADE</string>
+    <string name="text_moistureonly">Moisture</string>
+    <string name="print_netwt">NET WT</string>
+    <string name="print_Number_of_Bags">NO OF BAGS</string>
+    <string name="print_pur_rate">Pur.Rate/Qtl</string>
+    <string name="print_Bon_rate">Bon.Rate/Qtl</string>
+    <string name="print_total">TOTAL AMOUNT</string>
+    <string name="print_gradecut">GRADE CUT</string>
+    <string name="print_moisturecut">MOISTURE CUT</string>
+    <string name="print_netamt">NET AMT</string>
+    <string name="toast_grater_than_totalamount">Total Cut Amount Should be Lesser than  Total Amount</string>
+    <string name="dpc_type">Dpc Type</string>
+    <string name="capacity_per_day">Procuring Capacity Per Day (MT)</string>
+    <string name="weighing_machingcapacity">Weighing Machine Capacity (MT)</string>
+    <string name="sim_number">Sim Number</string>
+    <string name="dpc_category">DPC Category</string>
+    <string name="title_Dpc_profile">Dpc Profile</string>
+    <string name="Last_login">Last Login</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="admin">Admin</string>
+    <string name="waittoast">Please wait...</string>
+    <string name="print_totalcutamount">TOTAL CUT AMT</string>
+    <string name="toast_moisture_value">Gunny Capacity Should be 50,75,100,125</string>
+    <string name="toast_moisture_content">Moisture Content should be 10.0 to 20.0</string>
+    <string name="title_truck_memo_history">Search Truck Memo</string>
+    <string name="godowm">GODOWN</string>
+    <string name="print_lorry_number">LORRY NO</string>
+    <string name="print_no_bags">NO OF BAGS</string>
+    <string name="print_net_qty">NET QTY</string>
+    <string name="print_sort">SORT</string>
+    <string name="print_variety">VARIETY</string>
+    <string name="print_gunny_type">GUNNY TYPE</string>
+    <string name="print_g_sub_type">G.SUB TYPE</string>
+    <string name="print_moisture">MOISTURE</string>
+    <string name="print_specefication">SPECIFICATION</string>
+    <string name="print_tc">TC NAME</string>
+    <string name="spillage_less">Spillage Quantity Between 0.500 to 2.500</string>
+    <string name="toast_valid_account_number">Enter the valid Account Number</string>
+    <string name="toast_valid_ifsc_code">Enter the valid IFSC code</string>
+    <string name="toast_value_less">Values must be 01 to 33</string>
+    <string name="toast_error_sync">ERROR SYNC</string>
+    <string name="toast_enter_farmer_code">Please Enter the Farmer Code</string>
+    <string name="truck_memo_number">Truck Memo Number</string>
+    <string name="sync_done">Sync Already Done</string>
+    <string name="print">Print</string>
+    <string name="datetime">Date and Time</string>
+    <string name="procurement_receipt_number">Procurement Receipt Number</string>
+    <string name="date">Date</string>
+    <string name="device_connected">Device Connected</string>
+    <string name="device_not_connected">Device is not Connected</string>
+    <string name="new_bale">New Bale</string>
+    <string name="sound_serviceable">Sound Serviceable</string>
+    <string name="serviceable_patches">Serviceable with Patches</string>
+    <string name="own">Own</string>
+    <string name="Private">Private</string>
+    <string name="pair_device">Kindly pair with printer device</string>
+    <string name="TruckMemo_details">Truck Memo Details</string>
+    <string name="truck_number">Truck Memo Number</string>
+    <string name="un_synced">Un Synced Truck Memo</string>
+    <string name="date_time_">Date and Time</string>
+    <string name="CapCode">Cap Code</string>
+    <string name="synced">Synced Truck Memo</string>
+
+    <string name="title_truck_memo_unSync">Unsynced Truck Memo</string>
+    <string name="synced_Procurement">Synced Procurement</string>
+    <string name="un_synced_Procurement">Unsynced Procurement</string>
+
+    <string name="no_records">No records found</string>
+    <string name="title_truck_procurement_details">Procurement Details</string>
+    <string name="txt_Paddy_Category_">Paddy Category</string>
+    <string name="procurement_no">Receipt Number</string>
+    <string name="quantity">Quantity(q)</string>
+    <string name="moisture">Moisture(%)</string>
+    <string name="title_procurement_history">Search Procurement history</string>
+    <string name="title_procurements">Procurements</string>
+    <string name="sync_procurement">Sync Procurement</string>
+    <string name="sync_truck_memo">Sync Truck Memo</string>
+    <string name="toast_net_amount">Net Amount Should Not be Zero</string>
+    <string name="txt_mob_no">MOB.NO</string>
+    <string name="bank">BANK</string>
+    <string name="acc">ACC.NO</string>
+    <string name="specification">Specification</string>
+
+    <string name="caution">Caution</string>
+    <string name="timeDiff">Time difference between server and device </string>
+    <string name="nextDay">next day </string>
+    <string name="changeTime">Click OK to change time</string>
+    <string name="please_select_valid_specification">Please Select Valid Specification Type</string>
+    <string name="toast_select_specfication">Please select Specification</string>
+    <string name="specification_">SPECIFICATION</string>
+    <string name="toast_invalid_rate">Invalid Amount for Selected Grade</string>
+    <string name="txt_Ration_card">Ration Card</string>
+    <string name="procurement_date">Procurement Date</string>
+    <string name="toast_user_inactive">User is inactive</string>
+    <string name="toast_dpc_inactive">DPC is not active</string>
+    <string name="toast_app_type">User is not associated to DPC Profile</string>
+    <string name="no_records_date">Procurement is not found for selected date</string>
+    <string name="no_records_paddy">Procurement is not found for selected Paddy variety</string>
+    <string name="no_records_receipt">Procurement is not found for given receipt number</string>
+    <string name="no_records_code">Procurement is not found for given farmer code</string>
+    <string name="toast_mobile_aadhar_error">Mobile and Aadhaar card Number already exist</string>
+    <string name="no_records_truck_paddy">Truck Memo is not found for selected Paddy variety</string>
+    <string name="no_records_truck_number">Truck Memo is not found for given Truck memo Number</string>
+    <string name="no_records_truck_date">Truck Memo is not found for selected date</string>
+    <string name="no_records_truck_cap">Truck Memo is not found for selected Cap/Name</string>
+    <string name="no_records_search">Please search by any one of the option</string>
+    <string name="retrieve_db">Retrieve DB</string>
+    <string name="restore_db">Restore DB</string>
+    <string name="date_time_proc">Receipt Date and Time</string>
+    <string name="alert_farmer">If you click back button your details will be discarded ?</string>
+    <string name="alert">Alert</string>
+
+    <string name="retrieveDbString">Database will be retrieved from POS memory to SD card</string>
+    <string name="restorationDbString">Database will be restored from SD card to POS memory</string>
+
+</resources>

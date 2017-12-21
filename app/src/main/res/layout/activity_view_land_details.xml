@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fe4a4f">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/view_Land_Details"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/txt_district"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_District"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title" />
+
+                    <EditText
+                        android:id="@+id/edit_text_district"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:focusable="false"
+                        android:inputType="number"
+                        android:paddingLeft="5dp"
+                        android:textSize="@dimen/title" />
+
+
+                    <TextView
+                        android:id="@+id/txt_crop_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_Crop_Name"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title" />
+
+
+                    <EditText
+                        android:id="@+id/edit_crop_name"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:focusable="false"
+                        android:inputType="number"
+                        android:paddingLeft="5dp"
+                        android:textSize="@dimen/title" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/txt_Survey_Number"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title" />
+
+                    <EditText
+                        android:id="@+id/edit_text_survey_umber"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:focusable="false"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:paddingLeft="5dp"
+                        android:textSize="@dimen/title" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/txt_expected_date"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title" />
+
+                    <EditText
+                        android:id="@+id/expdate"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:focusable="false"
+                        android:inputType="number"
+                        android:paddingLeft="5dp"
+                        android:textSize="@dimen/title" />
+
+
+                   <!-- <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/txt_Loan_Book_Number"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title" />
+
+                    <EditText
+                        android:id="@+id/txt_loan_number"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:focusable="false"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:paddingLeft="5dp"
+                        android:textSize="@dimen/title" />-->
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/txt_taluk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_Taluk"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title" />
+
+                    <EditText
+                        android:id="@+id/edit_text_taluk"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:focusable="false"
+                        android:inputType="number"
+                        android:paddingLeft="5dp"
+                        android:textSize="@dimen/title" />
+
+
+                    <TextView
+                        android:id="@+id/txt_land_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_Land_Type"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title" />
+
+
+                    <EditText
+                        android:id="@+id/edit_text_land_type"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:focusable="false"
+                        android:inputType="number"
+                        android:paddingLeft="5dp"
+                        android:textSize="@dimen/title" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:text="@string/txt_patta_Number"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title" />
+
+                    <EditText
+                        android:id="@+id/edit_text_patta_number"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/edittext_border"
+                        android:digits="1234567890_,/"
+                        android:focusable="false"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions"
+                        android:maxLength="100"
+                        android:nextFocusDown="@+id/edit_tex_area"
+                        android:paddingLeft="5dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/title" />
+
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/txt_Survey_Number"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title" />
+
+                    <EditText
+                        android:id="@+id/edit_text_survey_umber"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:focusable="false"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:paddingLeft="5dp"
+                        android:textSize="@dimen/title" />-->
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/txt_village"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_Village"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title" />
+
+
+                    <EditText
+                        android:id="@+id/edit_text_village"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:focusable="false"
+                        android:inputType="number"
+                        android:paddingLeft="5dp"
+                        android:textSize="@dimen/title" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_Main_Land_Lord_Name"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title" />
+
+                    <EditText
+                        android:id="@+id/edit_text_master_land"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:focusable="false"
+                        android:inputType="number"
+                        android:paddingLeft="5dp"
+                        android:textSize="@dimen/title" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/txt_Area"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/title" />
+
+                    <EditText
+                        android:id="@+id/edit_text_area"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border"
+                        android:focusable="false"
+                        android:inputType="number"
+                        android:paddingLeft="5dp"
+                        android:textSize="@dimen/title" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.95"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/txt_Area_of_seed_sowed_for_Procurement"
+                    android:textColor="#ED2327"
+                    android:textSize="@dimen/title"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/txt_Accumulated_kgs"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/title" />
+
+                        <EditText
+                            android:id="@+id/edit_text_Accumulated_kgs"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_border"
+                            android:focusable="false"
+                            android:inputType="number"
+                            android:paddingLeft="5dp"
+                            android:textSize="@dimen/title" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/txt_Non_Accumulated_kgs"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/title" />
+
+                        <EditText
+                            android:id="@+id/edit_text_non_Accumulated_kgs"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_border"
+                            android:focusable="false"
+                            android:inputType="number"
+                            android:paddingLeft="5dp"
+                            android:textSize="@dimen/title" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/txt_Total_kgs"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/title" />
+
+                        <EditText
+                            android:id="@+id/edit_text_total_kgs"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_border"
+                            android:focusable="false"
+                            android:inputType="number"
+                            android:paddingLeft="5dp"
+                            android:textSize="@dimen/title" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.95"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/txt_Expected_Quantity_for_Procurement"
+                    android:textColor="#ED2327"
+                    android:textSize="@dimen/title"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/txt_Accumulated_Quintal"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/title" />
+
+                        <EditText
+                            android:id="@+id/edit_text_Accumulated_quintal"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_border"
+                            android:focusable="false"
+                            android:inputType="number"
+                            android:paddingLeft="5dp"
+                            android:textSize="@dimen/title" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/txt_Non_Accumulated_Quintal"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/title" />
+
+                        <EditText
+                            android:id="@+id/edit_text_non_Accumulated_quintal"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_border"
+                            android:focusable="false"
+                            android:inputType="number"
+
+                            android:paddingLeft="5dp"
+                            android:textSize="@dimen/title" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/txt_Total_Quintal"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/title" />
+
+                        <EditText
+                            android:id="@+id/edit_text_total_quintal"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_border"
+                            android:focusable="false"
+                            android:inputType="number"
+                            android:paddingLeft="5dp"
+                            android:textSize="@dimen/title" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_background_blue"
+                    android:text="@string/txt_Back"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_background_green"
+                    android:text="@string/btn_Submit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

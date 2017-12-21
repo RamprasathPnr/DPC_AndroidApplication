@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="txt_procurement_center_color">#005300</color>
+    <color name="txt_procurement_center_color_ta">#6B6E6E</color>
+    <color name="dark_gray">#C0C0C0</color>
+    <color name="light_gray">#e9e9e9</color>
+    <color name="pages_top_head">#004d40</color>
+    <!--DashBoard-->
+    <color name="procurement_history_color">#2588BA</color>
+    <color name="truck_memo_history_color">#00847C</color>
+    <color name="lay_former_list_color">#DB001C</color>
+    <color name="lay_reports_color">#00E824</color>
+    <color name="lay_procurement_color">#00C9BD</color>
+    <color name="lay_truck_memo_color">#00BA00</color>
+    <color name="lay_daily_wages_color">#7C00C6</color>
+    <color name="lay_others_color">#D86C00</color>
+    <!--toolbar_login title text color-->
+    <color name="tool_title_text_color_en">#363636</color>
+    <color name="tool_title_text_color_ta">#FB3251</color>.
+    <!--Button colors-->
+    <color name="btn_login">#FA002E</color>
+    <color name="btn_login_pressed">#ffbeca</color>
+    <!--Dialog colors-->
+    <color name="home_menu_dialog_color">#fefcfc</color>
+    <color name="dialog_btn_english_color">#00bd4b</color>
+    <color name="dialog_btn_english_pressed">#9ff1bf</color>
+    <color name="dialog_btn_tamil_color">#5144cd</color>
+    <color name="dialog_btn_tamil_pressed">#b5aff1</color>
+    <!--Footer-->
+    <color name="login_footer_text">#f9f9f9</color>
+    <!--TOOLBAR-->
+    <color name="toolbar_color_primary">#FF0077</color>
+    <!--Qr code-->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="step_moved">#FF556B</color>
+    <color name="dialog_view_background">#eeeeee</color>
+    <color name="login_background">#00322a</color>
+    <color name="green">#13BA33</color>
+    <color name="pink_color">#BB0073</color>
+    <color name="Retrive_db">#9100CB</color>
+    <color name="truck_memo_largetext">#717171</color>
+    <color name="truck_memo_smalltext">#afafaf</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="red">#ff4800</color>
+    <color name="offline_truck_memo">#FFE3C9</color>
+    <color name="ash">#4a4d4e</color>
+    <color name="grey">#4a4d4e</color>
+
+    <color name="unsynced">#F5f4f4</color>
+
+
+
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="paddy_icon_color">#3583BB</color>
+
+</resources>

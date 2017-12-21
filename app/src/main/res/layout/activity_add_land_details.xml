@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fe4a4f">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="@string/txt_Add_Land_Details"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.6"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_district"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_District"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <RelativeLayout
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/txt_taluk"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border">
+
+                        <com.omneagate.dpc.Utility.NoDefaultSpinner
+                            android:id="@+id/spinner_district"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@color/transparent"
+                            android:prompt="@string/prompt_select" />
+
+                        <RelativeLayout
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/layout_border">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_down_arrow" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/txt_crop_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_Crop_Name"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <RelativeLayout
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/txt_crop_name"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border">
+
+                        <com.omneagate.dpc.Utility.NoDefaultSpinner
+                            android:id="@+id/spinner_crop_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@color/transparent"
+                            android:prompt="@string/prompt_select" />
+
+                        <RelativeLayout
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/layout_border">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_down_arrow" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:text="@string/txt_Survey_Number"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <EditText
+                        android:id="@+id/edit_text_survey_number"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/edittext_border"
+                        android:digits="1234567890_,/"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions"
+                        android:maxLength="100"
+                        android:nextFocusDown="@+id/edit_text_patta_number"
+                        android:paddingLeft="5dp"
+                        android:singleLine="true"
+                        android:textSize="20sp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/txt_expected_date"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tex_expected_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_border"
+                            android:drawableRight="@drawable/ic_calender"
+                            android:gravity="center_vertical"
+                            android:nextFocusDown="@+id/edit_text_accumulated_kgs"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="15dp"
+                            android:singleLine="true"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_taluk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_Taluk"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <RelativeLayout
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/txt_taluk"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border">
+
+                        <com.omneagate.dpc.Utility.NoDefaultSpinner
+                            android:id="@+id/spinner_taluk_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@color/transparent"
+                            android:prompt="@string/prompt_select" />
+
+                        <RelativeLayout
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/layout_border">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_down_arrow" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/txt_land_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/txt_Land_Type"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <RelativeLayout
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/txt_land_type"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/edittext_border">
+
+                        <com.omneagate.dpc.Utility.NoDefaultSpinner
+                            android:id="@+id/spinner_land_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@color/transparent"
+                            android:prompt="@string/prompt_select" />
+
+                        <RelativeLayout
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/layout_border">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_down_arrow" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:text="@string/txt_patta_Number"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <EditText
+                        android:id="@+id/edit_text_patta_number"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/edittext_border"
+                        android:digits="1234567890_,/"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions"
+                        android:maxLength="100"
+                        android:nextFocusForward="@+id/edit_tex_area"
+                        android:paddingLeft="5dp"
+                        android:singleLine="true"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/txt_village"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txt_Village"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <RelativeLayout
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/txt_village"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_border">
+
+                        <com.omneagate.dpc.Utility.NoDefaultSpinner
+                            android:id="@+id/spinner_village"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@color/transparent"
+                            android:prompt="@string/prompt_select" />
+
+                        <RelativeLayout
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/layout_border">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_down_arrow" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/txt_Main_Land_Lord_Name"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <EditText
+                        android:id="@+id/edit_text_lord_land"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/edittext_border"
+                        android:imeOptions="actionNext"
+                        android:maxLength="75"
+                        android:nextFocusForward="@+id/edit_text_survey_number"
+                        android:paddingLeft="5dp"
+                        android:singleLine="true"
+                        android:textSize="20sp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/txt_Area"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/farmer_reg" />
+
+                    <EditText
+                        android:id="@+id/edit_tex_area"
+                        android:layout_width="320dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/edittext_border"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:maxLength="6"
+                        android:nextFocusForward="@+id/edit_text_accumulated_kgs"
+                        android:paddingLeft="5dp"
+                        android:singleLine="true"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.95"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/txt_Area_of_seed_sowed_for_Procurement"
+                    android:textColor="#ED2327"
+                    android:textSize="@dimen/farmer_reg"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/txt_Accumulated_kgs"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/farmer_reg" />
+
+                        <EditText
+                            android:id="@+id/edit_text_accumulated_kgs"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_border"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:maxLength="5"
+                            android:nextFocusDown="@+id/edit_text_non_accumulated_kgs"
+                            android:paddingLeft="5dp"
+                            android:singleLine="true"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/txt_Non_Accumulated_kgs"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/farmer_reg" />
+
+                        <EditText
+                            android:id="@+id/edit_text_non_accumulated_kgs"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_border"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:maxLength="5"
+                            android:nextFocusDown="@+id/edit_text_accumulated_quintal"
+                            android:paddingLeft="5dp"
+                            android:singleLine="true"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/txt_Total_kgs"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/farmer_reg" />
+
+
+                        <EditText
+                            android:id="@+id/edit_text_total_kgs"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@null"
+                            android:maxLength="10"
+                            android:paddingLeft="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/farmer_reg" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.95"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/txt_Expected_Quantity_for_Procurement"
+                    android:textColor="#ED2327"
+                    android:textSize="@dimen/farmer_reg"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/txt_Accumulated_Quintal"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/farmer_reg" />
+
+                        <EditText
+                            android:id="@+id/edit_text_accumulated_quintal"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_border"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:maxLength="5"
+                            android:nextFocusDown="@+id/edit_text_non_accumulated_quintal"
+                            android:paddingLeft="5dp"
+                            android:singleLine="true"
+                            android:textSize="20sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/txt_Non_Accumulated_Quintal"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/farmer_reg" />
+
+                        <EditText
+                            android:id="@+id/edit_text_non_accumulated_quintal"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_border"
+                            android:imeOptions="actionDone"
+                            android:inputType="numberDecimal"
+                            android:maxLength="5"
+                            android:paddingLeft="5dp"
+                            android:singleLine="true"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/txt_Total_Quintal"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/farmer_reg" />
+
+                        <EditText
+                            android:id="@+id/edit_text_total_quintal"
+                            android:layout_width="320dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@null"
+                            android:maxLength="10"
+                            android:paddingLeft="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button_background_blue"
+                    android:text="@string/txt_cancel"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/farmer_reg" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_background_green"
+                    android:text="@string/btn_Submit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/farmer_reg" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

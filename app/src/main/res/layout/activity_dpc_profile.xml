@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_layout"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="3">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@drawable/border_hash"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#7F7F7F"
+                        android:gravity="center"
+                        android:text="@string/txt_DPC_Code"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title" />
+
+                    <TextView
+                        android:id="@+id/tV_dpc_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="#E85778"
+                        android:textSize="@dimen/title" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_hash"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#7F7F7F"
+                        android:gravity="center"
+                        android:text="@string/txt_Taluk"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title" />
+
+                    <TextView
+                        android:id="@+id/tV_dpc_taluk"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#E85778"
+                        android:textSize="@dimen/title" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_hash"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#7F7F7F"
+                        android:gravity="center"
+                        android:text="@string/dpc_category"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title" />
+
+                    <TextView
+                        android:id="@+id/tV_dpc_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#E85778"
+                        android:textSize="@dimen/title" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_hash"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#7F7F7F"
+                        android:gravity="center"
+                        android:text="@string/sim_number"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title" />
+
+                    <TextView
+                        android:id="@+id/tV_sim_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#E85778"
+                        android:textSize="@dimen/title" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@drawable/border_hash"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#7F7F7F"
+                        android:gravity="center"
+                        android:text="@string/txt_DPC_name"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title" />
+
+                    <TextView
+                        android:id="@+id/tV_dpc_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#E85778"
+                        android:textSize="@dimen/title" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_hash"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#7F7F7F"
+                        android:gravity="center"
+                        android:text="@string/txt_Village"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title" />
+
+                    <TextView
+                        android:id="@+id/tV_dpc_village"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#E85778"
+                        android:textSize="@dimen/title" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_hash"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#7F7F7F"
+                        android:gravity="center"
+                        android:text="@string/capacity_per_day"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title" />
+
+                    <TextView
+                        android:id="@+id/tV_procuringCapacity"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#E85778"
+                        android:textSize="@dimen/title" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@drawable/border_hash"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#7F7F7F"
+                        android:gravity="center"
+                        android:text="@string/txt_District"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title" />
+
+                    <TextView
+                        android:id="@+id/tV_dpc_district"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#E85778"
+                        android:textSize="@dimen/title" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_hash"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#7F7F7F"
+                        android:gravity="center"
+                        android:text="@string/dpc_type"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title" />
+
+                    <TextView
+                        android:id="@+id/tV_dpc_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#E85778"
+                        android:textSize="@dimen/title" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_hash"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#7F7F7F"
+                        android:gravity="center"
+                        android:text="@string/weighing_machingcapacity"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title" />
+
+                    <TextView
+                        android:id="@+id/tV_weighing_machine"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#E85778"
+                        android:textSize="@dimen/title" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_hash"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="5dp"
+            android:layout_above="@+id/bottom_layout"
+            android:text="@string/txt_close"/>
+
+        <include
+            android:id="@+id/bottom_layout"
+            layout="@layout/footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
